@@ -1,0 +1,4921 @@
+{
+    "Troll Whelp":{
+        "name":"Troll Whelp"
+        ,"evolution":["Troll", "Troll Rocklobber"]
+        ,"cost":13
+        ,"faction":"Northerners"
+        ,"race":"Trolls"
+        ,"alignment":"chaotic"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"fist"
+                ,"dmg":7
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+
+        ]
+
+    }
+    ,"Troll":{
+        "name":"Troll"
+        ,"evolution":["Troll Warrior"]
+        ,"cost":29
+        ,"faction":"Northerners"
+        ,"race":"Trolls"
+        ,"alignment":"chaotic"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"club"
+                ,"dmg":14
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+
+        ]
+
+    }
+    ,"Troll Warrior":{
+        "name":"Troll Warrior"
+        ,"cost":42
+        ,"faction":"Northerners"
+        ,"race":"Trolls"
+        ,"alignment":"chaotic"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"hammer"
+                ,"dmg":20
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+
+        ]
+
+    }
+    ,"Troll Rocklobber":{
+        "name":"Troll Rocklobber"
+        ,"cost":29
+        ,"faction":"Northerners"
+        ,"race":"Trolls"
+        ,"alignment":"chaotic"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"fist"
+                ,"dmg":10
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"sling"
+                ,"dmg":17
+                ,"hits":1
+                ,"attack_type":"impact"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Vampire Bat":{
+        "name":"Vampire Bat"
+        ,"evolution":["Blood Bat"]
+        ,"cost":13
+        ,"faction":"Undead"
+        ,"race":"Bats"
+        ,"alignment":"chaotic"
+        ,"lvl":0
+        ,"attacks":[
+            {
+                "name":"fangs"
+                ,"dmg":4
+                ,"hits":2
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+
+        ]
+
+    }
+    ,"Blood Bat":{
+        "name":"Blood Bat"
+        ,"evolution":["Dread Bat"]
+        ,"cost":21
+        ,"faction":"Undead"
+        ,"race":"Bats"
+        ,"alignment":"chaotic"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"fangs"
+                ,"dmg":5
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+
+        ]
+
+    }
+    ,"Dread Bat":{
+        "name":"Dread Bat"
+        ,"cost":34
+        ,"faction":"Undead"
+        ,"race":"Bats"
+        ,"alignment":"chaotic"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"fangs"
+                ,"dmg":6
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+
+        ]
+
+    }
+    ,"Drake Burner":{
+        "name":"Drake Burner"
+        ,"evolution":["Drake Flare", "Fire Drake"]
+        ,"cost":21
+        ,"faction":"Drakes"
+        ,"race":"Drakes"
+        ,"alignment":"lawful"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"claws"
+                ,"dmg":7
+                ,"hits":2
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"fire breath"
+                ,"dmg":6
+                ,"hits":4
+                ,"attack_type":"fire"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Drake Flare":{
+        "name":"Drake Flare"
+        ,"evolution":["Drake Flameheart"]
+        ,"cost":35
+        ,"faction":"Drakes"
+        ,"race":"Drakes"
+        ,"alignment":"lawful"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"war blade"
+                ,"dmg":8
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"fire breath"
+                ,"dmg":6
+                ,"hits":4
+                ,"attack_type":"fire"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Drake Flameheart":{
+        "name":"Drake Flameheart"
+        ,"cost":51
+        ,"faction":"Drakes"
+        ,"race":"Drakes"
+        ,"alignment":"lawful"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"war blade"
+                ,"dmg":11
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"fire breath"
+                ,"dmg":8
+                ,"hits":4
+                ,"attack_type":"fire"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Fire Drake":{
+        "name":"Fire Drake"
+        ,"evolution":["Inferno Drake"]
+        ,"cost":35
+        ,"faction":"Drakes"
+        ,"race":"Drakes"
+        ,"alignment":"lawful"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"battle claws"
+                ,"dmg":9
+                ,"hits":2
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"fire breath"
+                ,"dmg":7
+                ,"hits":5
+                ,"attack_type":"fire"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Inferno Drake":{
+        "name":"Inferno Drake"
+        ,"cost":51
+        ,"faction":"Drakes"
+        ,"race":"Drakes"
+        ,"alignment":"lawful"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"battle claws"
+                ,"dmg":12
+                ,"hits":2
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"fire breath"
+                ,"dmg":8
+                ,"hits":6
+                ,"attack_type":"fire"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Drake Clasher":{
+        "name":"Drake Clasher"
+        ,"evolution":["Drake Arbiter", "Drake Thrasher"]
+        ,"cost":19
+        ,"faction":"Drakes"
+        ,"race":"Drakes"
+        ,"alignment":"lawful"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"war talon"
+                ,"dmg":5
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"spear"
+                ,"dmg":6
+                ,"hits":4
+                ,"attack_type":"pierce"
+                ,"ranged":0
+                ,"first_strike":1
+            }
+
+        ]
+
+    }
+    ,"Drake Thrasher":{
+        "name":"Drake Thrasher"
+        ,"evolution":["Drake Enforcer"]
+        ,"cost":31
+        ,"faction":"Drakes"
+        ,"race":"Drakes"
+        ,"alignment":"lawful"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"war talon"
+                ,"dmg":8
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"spear"
+                ,"dmg":6
+                ,"hits":5
+                ,"attack_type":"pierce"
+                ,"ranged":0
+            }
+            ,{
+                "name":"ram"
+                ,"dmg":10
+                ,"hits":3
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+
+        ]
+
+    }
+    ,"Drake Enforcer":{
+        "name":"Drake Enforcer"
+        ,"cost":40
+        ,"faction":"Drakes"
+        ,"race":"Drakes"
+        ,"alignment":"lawful"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"war talon"
+                ,"dmg":11
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"ram"
+                ,"dmg":14
+                ,"hits":3
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"trident"
+                ,"dmg":8
+                ,"hits":5
+                ,"attack_type":"pierce"
+                ,"ranged":0
+            }
+
+        ]
+
+    }
+    ,"Drake Arbiter":{
+        "name":"Drake Arbiter"
+        ,"evolution":["Drake Warden"]
+        ,"cost":31
+        ,"faction":"Drakes"
+        ,"race":"Drakes"
+        ,"alignment":"lawful"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"halberd"
+                ,"dmg":11
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"halberd"
+                ,"dmg":17
+                ,"hits":2
+                ,"attack_type":"pierce"
+                ,"ranged":0
+                ,"first_strike":1
+            }
+
+        ]
+
+    }
+    ,"Drake Warden":{
+        "name":"Drake Warden"
+        ,"predecessor":["Drake Arbiter"]
+        ,"cost":46
+        ,"faction":"Drakes"
+        ,"race":"Drakes"
+        ,"alignment":"lawful"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"halberd"
+                ,"dmg":16
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"halberd"
+                ,"dmg":23
+                ,"hits":2
+                ,"attack_type":"pierce"
+                ,"ranged":0
+                ,"first_strike":1
+            }
+
+        ]
+
+    }
+    ,"Drake Fighter":{
+        "name":"Drake Fighter"
+        ,"evolution":["Drake Warrior"]
+        ,"cost":17
+        ,"faction":"Drakes"
+        ,"race":"Drakes"
+        ,"alignment":"lawful"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"war blade"
+                ,"dmg":7
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"fire breath"
+                ,"dmg":3
+                ,"hits":3
+                ,"attack_type":"fire"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Drake Warrior":{
+        "name":"Drake Warrior"
+        ,"evolution":["Drake Blademaster"]
+        ,"cost":30
+        ,"faction":"Drakes"
+        ,"race":"Drakes"
+        ,"alignment":"lawful"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"war blade"
+                ,"dmg":11
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"fire breath"
+                ,"dmg":5
+                ,"hits":3
+                ,"attack_type":"fire"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Drake Blademaster":{
+        "name":"Drake Blademaster"
+        ,"cost":47
+        ,"faction":"Drakes"
+        ,"race":"Drakes"
+        ,"alignment":"lawful"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"war talon"
+                ,"dmg":16
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"fire breath"
+                ,"dmg":8
+                ,"hits":3
+                ,"attack_type":"fire"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Drake Glider":{
+        "name":"Drake Glider"
+        ,"evolution":["Sky Drake"]
+        ,"cost":16
+        ,"faction":"Drakes"
+        ,"race":"Drakes"
+        ,"alignment":"lawful"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"slam"
+                ,"dmg":6
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"fire breath"
+                ,"dmg":3
+                ,"hits":3
+                ,"attack_type":"fire"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Sky Drake":{
+        "name":"Sky Drake"
+        ,"evolution":["Hurricane Warrior"]
+        ,"cost":30
+        ,"faction":"Drakes"
+        ,"race":"Drakes"
+        ,"alignment":"lawful"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"slam"
+                ,"dmg":6
+                ,"hits":3
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"fire breath"
+                ,"dmg":5
+                ,"hits":3
+                ,"attack_type":"fire"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Hurricane Drake":{
+        "name":"Hurricane Drake"
+        ,"cost":40
+        ,"faction":"Drakes"
+        ,"race":"Drakes"
+        ,"alignment":"lawful"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"slam"
+                ,"dmg":8
+                ,"hits":3
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"fire breath"
+                ,"dmg":8
+                ,"hits":3
+                ,"attack_type":"fire"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Dwarvish Fighter":{
+        "name":"Dwarvish Fighter"
+        ,"evolution":["Dwarvish Steelclad"]
+        ,"cost":16
+        ,"faction":"Knalgan Alliance"
+        ,"race":"Dwarves"
+        ,"alignment":"neutral"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"axe"
+                ,"dmg":7
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"hammer"
+                ,"dmg":8
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+
+        ]
+
+    }
+    ,"Dwarvish Steelclad":{
+        "name":"Dwarvish Steelclad"
+        ,"evolution":["Dwarvish Lord"]
+        ,"cost":32
+        ,"faction":"Knalgan Alliance"
+        ,"race":"Dwarves"
+        ,"alignment":"neutral"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"battle axe"
+                ,"dmg":11
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"hammer"
+                ,"dmg":14
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+
+        ]
+
+    }
+    ,"Dwarvish Lord":{
+        "name":"Dwarvish Lord"
+        ,"cost":54
+        ,"faction":"Knalgan Alliance"
+        ,"race":"Dwarves"
+        ,"alignment":"neutral"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"battle axe"
+                ,"dmg":15
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"hammer"
+                ,"dmg":19
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"hatchet"
+                ,"dmg":10
+                ,"hits":1
+                ,"attack_type":"blade"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Dwarvish Scout":{
+        "name":"Dwarvish Scout"
+        ,"evolution":["Dwarvish Pathfinder"]
+        ,"cost":18
+        ,"faction":"Knalgan Alliance"
+        ,"race":"Dwarves"
+        ,"alignment":"neutral"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"axe"
+                ,"dmg":6
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"axe"
+                ,"dmg":8
+                ,"hits":2
+                ,"attack_type":"blade"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Dwarvish Pathfinder":{
+        "name":"Dwarvish Pathfinder"
+        ,"evolution":["Dwarvish Explorer"]
+        ,"cost":30
+        ,"faction":"Knalgan Alliance"
+        ,"race":"Dwarves"
+        ,"alignment":"neutral"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"axe"
+                ,"dmg":8
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"axe"
+                ,"dmg":8
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Dwarvish Explorer":{
+        "name":"Dwarvish Explorer"
+        ,"cost":45
+        ,"faction":"Knalgan Alliance"
+        ,"race":"Dwarves"
+        ,"alignment":"neutral"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"axe"
+                ,"dmg":10
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"axe"
+                ,"dmg":11
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Dwarvish Guardsman":{
+        "name":"Dwarvish Guardsman"
+        ,"evolution":["Dwarvish Stalwart"]
+        ,"cost":19
+        ,"faction":"Knalgan Alliance"
+        ,"race":"Dwarves"
+        ,"alignment":"neutral"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"spear"
+                ,"dmg":5
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":0
+            }
+            ,{
+                "name":"javelin"
+                ,"dmg":5
+                ,"hits":1
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Dwarvish Stalwart":{
+        "name":"Dwarvish Stalwart"
+        ,"evolution":["Dwarvish Sentinel"]
+        ,"cost":32
+        ,"faction":"Knalgan Alliance"
+        ,"race":"Dwarves"
+        ,"alignment":"neutral"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"spear"
+                ,"dmg":7
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":0
+            }
+            ,{
+                "name":"javelin"
+                ,"dmg":8
+                ,"hits":1
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Dwarvish Sentinel":{
+        "name":"Dwarvish Sentinel"
+        ,"cost":41
+        ,"faction":"Knalgan Alliance"
+        ,"race":"Dwarves"
+        ,"alignment":"neutral"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"spear"
+                ,"dmg":9
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":0
+            }
+            ,{
+                "name":"javelin"
+                ,"dmg":11
+                ,"hits":2
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Dwarvish Thunderer":{
+        "name":"Dwarvish Thunderer"
+        ,"evolution":["Dwarvish Thunderguard"]
+        ,"cost":17
+        ,"faction":"Knalgan Alliance"
+        ,"race":"Dwarves"
+        ,"alignment":"neutral"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"dagger"
+                ,"dmg":6
+                ,"hits":2
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"thunderstick"
+                ,"dmg":18
+                ,"hits":1
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Dwarvish Thunderguard":{
+        "name":"Dwarvish Thunderguard"
+        ,"evolution":["Dwarvish Dragonguard"]
+        ,"cost":30
+        ,"faction":"Knalgan Alliance"
+        ,"race":"Dwarves"
+        ,"alignment":"neutral"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"dagger"
+                ,"dmg":6
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"thunderstick"
+                ,"dmg":28
+                ,"hits":1
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Dwarvish Dragonguard":{
+        "name":"Dwarvish Dragonguard"
+        ,"cost":46
+        ,"faction":"Knalgan Alliance"
+        ,"race":"Dwarves"
+        ,"alignment":"neutral"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"dagger"
+                ,"dmg":9
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"dragonstaff"
+                ,"dmg":40
+                ,"hits":1
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Dwarvish Ulfserker":{
+        "name":"Dwarvish Ulfserker"
+        ,"evolution":["Dwarvish Berserker"]
+        ,"cost":19
+        ,"faction":"Knalgan Alliance"
+        ,"race":"Dwarves"
+        ,"alignment":"neutral"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"berserker frenzy"
+                ,"dmg":4
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+                ,"berserk":1
+            }
+
+        ]
+
+    }
+    ,"Dwarvish Berserker":{
+        "name":"Dwarvish Berserker"
+        ,"cost":19
+        ,"faction":"Knalgan Alliance"
+        ,"race":"Dwarves"
+        ,"alignment":"neutral"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"berserker frenzy"
+                ,"dmg":7
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+                ,"berserk":1
+            }
+
+        ]
+
+    }
+    ,"Elvish Archer":{
+        "name":"Elvish Archer"
+        ,"evolution":["Elvish Marksman", "Elvish Ranger"]
+        ,"cost":19
+        ,"faction":"Rebels"
+        ,"race":"Elves"
+        ,"alignment":"neutral"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"sword"
+                ,"dmg":5
+                ,"hits":2
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"bow"
+                ,"dmg":5
+                ,"hits":4
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Elvish Ranger":{
+        "name":"Elvish Ranger"
+        ,"evolution":["Elvish Avenger"]
+        ,"cost":41
+        ,"faction":"Rebels"
+        ,"race":"Elves"
+        ,"alignment":"neutral"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"sword"
+                ,"dmg":7
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"bow"
+                ,"dmg":7
+                ,"hits":4
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Elvish Avenger":{
+        "name":"Elvish Avenger"
+        ,"cost":60
+        ,"faction":"Rebels"
+        ,"race":"Elves"
+        ,"alignment":"neutral"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"sword"
+                ,"dmg":8
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"bow"
+                ,"dmg":10
+                ,"hits":4
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Elvish Marksman":{
+        "name":"Elvish Marksman"
+        ,"evolution":["Elvish Sharpshooter"]
+        ,"cost":41
+        ,"faction":"Rebels"
+        ,"race":"Elves"
+        ,"alignment":"neutral"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"sword"
+                ,"dmg":6
+                ,"hits":2
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"longbow"
+                ,"dmg":9
+                ,"hits":4
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Elvish Sharpshooter":{
+        "name":"Elvish Sharpshooter"
+        ,"cost":55
+        ,"faction":"Rebels"
+        ,"race":"Elves"
+        ,"alignment":"neutral"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"sword"
+                ,"dmg":7
+                ,"hits":2
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"longbow"
+                ,"dmg":10
+                ,"hits":5
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Elvish Fighter":{
+        "name":"Elvish Fighter"
+        ,"evolution":["Elvish Captain", "Elvish Hero"]
+        ,"cost":14
+        ,"faction":"Rebels"
+        ,"race":"Elves"
+        ,"alignment":"neutral"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"sword"
+                ,"dmg":5
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"bow"
+                ,"dmg":3
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Elvish Captain":{
+        "name":"Elvish Captain"
+        ,"evolution":["Elvish Marshal"]
+        ,"cost":32
+        ,"faction":"Rebels"
+        ,"race":"Elves"
+        ,"alignment":"neutral"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"sword"
+                ,"dmg":7
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"bow"
+                ,"dmg":5
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Elvish Marshal":{
+        "name":"Elvish Marshal"
+        ,"cost":55
+        ,"faction":"Rebels"
+        ,"race":"Elves"
+        ,"alignment":"neutral"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"sword"
+                ,"dmg":10
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"bow"
+                ,"dmg":8
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Elvish Hero":{
+        "name":"Elvish Hero"
+        ,"evolution":["Elvish Champion"]
+        ,"cost":32
+        ,"faction":"Rebels"
+        ,"race":"Elves"
+        ,"alignment":"neutral"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"sword"
+                ,"dmg":8
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"bow"
+                ,"dmg":6
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Elvish Champion":{
+        "name":"Elvish Champion"
+        ,"cost":55
+        ,"faction":"Rebels"
+        ,"race":"Elves"
+        ,"alignment":"neutral"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"sword"
+                ,"dmg":9
+                ,"hits":5
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"bow"
+                ,"dmg":9
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Elvish Scout":{
+        "name":"Elvish Scout"
+        ,"evolution":["Elvish Rider"]
+        ,"cost":18
+        ,"faction":"Rebels"
+        ,"race":"Elves"
+        ,"alignment":"neutral"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"sword"
+                ,"dmg":4
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"bow"
+                ,"dmg":6
+                ,"hits":2
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Elvish Rider":{
+        "name":"Elvish Rider"
+        ,"evolution":["Elvish Outrider"]
+        ,"cost":31
+        ,"faction":"Rebels"
+        ,"race":"Elves"
+        ,"alignment":"neutral"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"sword"
+                ,"dmg":7
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"bow"
+                ,"dmg":9
+                ,"hits":2
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Elvish Outrider":{
+        "name":"Elvish Outrider"
+        ,"cost":43
+        ,"faction":"Rebels"
+        ,"race":"Elves"
+        ,"alignment":"neutral"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"sword"
+                ,"dmg":7
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"bow"
+                ,"dmg":8
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Elvish Shaman":{
+        "name":"Elvish Shaman"
+        ,"evolution":["Elvish Druid", "Elvish Sorceress"]
+        ,"cost":15
+        ,"faction":"Rebels"
+        ,"race":"Elves"
+        ,"alignment":"neutral"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"staff"
+                ,"dmg":3
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"entangle"
+                ,"dmg":3
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Elvish Druid":{
+        "name":"Elvish Druid"
+        ,"evolution":["Elvish Shyde"]
+        ,"cost":34
+        ,"faction":"Rebels"
+        ,"race":"Elves"
+        ,"alignment":"neutral"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"staff"
+                ,"dmg":4
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"ensnare"
+                ,"dmg":6
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":1
+            }
+            ,{
+                "name":"thorns"
+                ,"dmg":6
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Elvish Shyde":{
+        "name":"Elvish Shyde"
+        ,"cost":52
+        ,"faction":"Rebels"
+        ,"race":"Elves"
+        ,"alignment":"neutral"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"faerie touch"
+                ,"dmg":6
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"ensnare"
+                ,"dmg":6
+                ,"hits":3
+                ,"attack_type":"impact"
+                ,"ranged":1
+            }
+            ,{
+                "name":"thorns"
+                ,"dmg":8
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Elvish Sorceress":{
+        "name":"Elvish Sorceress"
+        ,"evolution":["Elvish Enchantress"]
+        ,"cost":34
+        ,"faction":"Rebels"
+        ,"race":"Elves"
+        ,"alignment":"neutral"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"staff"
+                ,"dmg":4
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"entangle"
+                ,"dmg":4
+                ,"hits":3
+                ,"attack_type":"impact"
+                ,"ranged":1
+            }
+            ,{
+                "name":"faerie fire"
+                ,"dmg":7
+                ,"hits":4
+                ,"attack_type":"arcane"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Elvish Enchantress":{
+        "name":"Elvish Enchantress"
+        ,"cost":55
+        ,"faction":"Rebels"
+        ,"race":"Elves"
+        ,"alignment":"neutral"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"staff"
+                ,"dmg":6
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"entangle"
+                ,"dmg":5
+                ,"hits":4
+                ,"attack_type":"impact"
+                ,"ranged":1
+            }
+            ,{
+                "name":"faerie fire"
+                ,"dmg":9
+                ,"hits":4
+                ,"attack_type":"arcane"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Goblin Spearman":{
+        "name":"Goblin Spearman"
+        ,"evolution":["Goblin Impaler", "Goblin Rouser"]
+        ,"cost":9
+        ,"faction":"Northerners"
+        ,"race":"Goblins"
+        ,"alignment":"chaotic"
+        ,"lvl":0
+        ,"attacks":[
+            {
+                "name":"spear"
+                ,"dmg":6
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":0
+            }
+            ,{
+                "name":"spear"
+                ,"dmg":3
+                ,"hits":1
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Goblin Impaler":{
+        "name":"Goblin Impaler"
+        ,"cost":13
+        ,"faction":"Northerners"
+        ,"race":"Goblins"
+        ,"alignment":"chaotic"
+        ,"lvl":0
+        ,"attacks":[
+            {
+                "name":"spear"
+                ,"dmg":8
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":0
+                ,"first_strike":1
+            }
+            ,{
+                "name":"spear"
+                ,"dmg":5
+                ,"hits":1
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Goblin Rouser":{
+        "name":"Goblin Rouser"
+        ,"cost":13
+        ,"faction":"Northerners"
+        ,"race":"Goblins"
+        ,"alignment":"chaotic"
+        ,"lvl":0
+        ,"attacks":[
+            {
+                "name":"spear"
+                ,"dmg":7
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":0
+            }
+
+        ]
+
+    }
+    ,"Gryphon Rider":{
+        "name":"Gryphon Rider"
+        ,"evolution":["Gryphon Master"]
+        ,"cost":24
+        ,"faction":"Knalgan Alliance"
+        ,"race":"Gryphons"
+        ,"alignment":"neutral"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"claws"
+                ,"dmg":12
+                ,"hits":2
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+
+        ]
+
+    }
+    ,"Gryphon Master":{
+        "name":"Gryphon Master"
+        ,"cost":37
+        ,"faction":"Knalgan Alliance"
+        ,"race":"Gryphons"
+        ,"alignment":"neutral"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"claws"
+                ,"dmg":15
+                ,"hits":2
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+
+        ]
+
+    }
+    ,"Cavalryman":{
+        "name":"Cavalryman"
+        ,"evolution":["Dragoon"]
+        ,"cost":17
+        ,"faction":"Loyalists"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"sword"
+                ,"dmg":6
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+
+        ]
+
+    }
+    ,"Dragoon":{
+        "name":"Dragoon"
+        ,"evolution":["Cavalier"]
+        ,"cost":34
+        ,"faction":"Loyalists"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"sword"
+                ,"dmg":6
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"crossbow"
+                ,"dmg":12
+                ,"hits":1
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Cavalier":{
+        "name":"Cavalier"
+        ,"cost":52
+        ,"faction":"Loyalists"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"longsword"
+                ,"dmg":10
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"crossbow"
+                ,"dmg":20
+                ,"hits":1
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Dark Adept":{
+        "name":"Dark Adept"
+        ,"evolution":["Dark Sorcerer"]
+        ,"cost":16
+        ,"faction":"Undead"
+        ,"race":"Humans"
+        ,"alignment":"chaotic"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"chill wave"
+                ,"dmg":10
+                ,"hits":2
+                ,"attack_type":"cold"
+                ,"ranged":1
+            }
+            ,{
+                "name":"shadow wave"
+                ,"dmg":7
+                ,"hits":2
+                ,"attack_type":"arcane"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Dark Sorcerer":{
+        "name":"Dark Sorcerer"
+        ,"evolution":["Lich", "Necromancer"]
+        ,"cost":32
+        ,"faction":"Undead"
+        ,"race":"Humans"
+        ,"alignment":"chaotic"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"staff"
+                ,"dmg":4
+                ,"hits":3
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"chill wave"
+                ,"dmg":13
+                ,"hits":2
+                ,"attack_type":"cold"
+                ,"ranged":1
+            }
+            ,{
+                "name":"shadow wave"
+                ,"dmg":9
+                ,"hits":2
+                ,"attack_type":"arcane"
+                ,"ranged":1
+            }
+
+        ]
+    }
+    ,"Lich":{
+        "name":"Lich"
+        ,"cost":50
+        ,"faction":"Undead"
+        ,"race":"Undead"
+        ,"alignment":"chaotic"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"touch"
+                ,"dmg":8
+                ,"hits":3
+                ,"attack_type":"arcane"
+                ,"ranged":0
+            }
+            ,{
+                "name":"chill wave"
+                ,"dmg":12
+                ,"hits":3
+                ,"attack_type":"cold"
+                ,"ranged":1
+            }
+            ,{
+                "name":"shadow wave"
+                ,"dmg":9
+                ,"hits":3
+                ,"attack_type":"arcane"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Necromancer":{
+        "name":"Necromancer"
+        ,"cost":50
+        ,"faction":"Undead"
+        ,"race":"Humans"
+        ,"alignment":"chaotic"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"staff"
+                ,"dmg":6
+                ,"hits":3
+                ,"attack_type":"impact"
+                ,"ranged":0
+                ,"plague":1
+            }
+            ,{
+                "name":"chill wave"
+                ,"dmg":17
+                ,"hits":2
+                ,"attack_type":"cold"
+                ,"ranged":1
+            }
+            ,{
+                "name":"shadow wave"
+                ,"dmg":12
+                ,"hits":2
+                ,"attack_type":"arcane"
+                ,"ranged":1
+            }
+
+        ]
+
+    }
+    ,"Fencer":{
+        "name":"Fencer"
+        ,"evolution":["Duelist"]
+        ,"cost":16
+        ,"faction":"Loyalists"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"saber"
+                ,"dmg":4
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+        ]
+
+    }
+    ,"Duelist":{
+        "name":"Duelist"
+        ,"evolution":["Master at Arms"]
+        ,"cost":32
+        ,"faction":"Loyalists"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"saber"
+                ,"dmg":5
+                ,"hits":5
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"crossbow"
+                ,"dmg":12
+                ,"hits":1
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+
+    }
+    ,"Master at Arms":{
+        "name":"Master at Arms"
+        ,"cost":44
+        ,"faction":"Loyalists"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"saber"
+                ,"dmg":7
+                ,"hits":5
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"crossbow"
+                ,"dmg":20
+                ,"hits":1
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Heavy Infantryman":{
+        "name":"Heavy Infantryman"
+        ,"evolution":["Shock Trooper"]
+        ,"cost":19
+        ,"faction":"Loyalists"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"mace"
+                ,"dmg":11
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Shock Trooper":{
+        "name":"Shock Trooper"
+        ,"evolution":["Iron Mauler"]
+        ,"cost":35
+        ,"faction":"Loyalists"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"flail"
+                ,"dmg":18
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Iron Mauler":{
+        "name":"Iron Mauler"
+        ,"cost":50
+        ,"faction":"Loyalists"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"mace"
+                ,"dmg":25
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Horseman":{
+        "name":"Horseman"
+        ,"evolution":["Knight", "Lancer"]
+        ,"cost":23
+        ,"faction":"Loyalists"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"spear"
+                ,"dmg":9
+                ,"hits":2
+                ,"attack_type":"pierce"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Lancer":{
+        "name":"Lancer"
+        ,"cost":40
+        ,"faction":"Loyalists"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"lance"
+                ,"dmg":12
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Knight":{
+        "name":"Knight"
+        ,"evolution":["Grand Knight", "Paladin"]
+        ,"cost":40
+        ,"faction":"Loyalists"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"sword"
+                ,"dmg":8
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"lance"
+                ,"dmg":14
+                ,"hits":2
+                ,"attack_type":"pierce"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Paladin":{
+        "name":"Paladin"
+        ,"cost":58
+        ,"faction":"Loyalists"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"sword"
+                ,"dmg":8
+                ,"hits":5
+                ,"attack_type":"arcane"
+                ,"ranged":0
+            }
+            ,{
+                "name":"lance"
+                ,"dmg":15
+                ,"hits":2
+                ,"attack_type":"pierce"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Grand Knight":{
+        "name":"Grand Knight"
+        ,"cost":58
+        ,"faction":"Loyalists"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"longsword"
+                ,"dmg":12
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"lance"
+                ,"dmg":17
+                ,"hits":2
+                ,"attack_type":"pierce"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Mage":{
+        "name":"Mage"
+        ,"evolution":["Red Mage", "White Mage"]
+        ,"cost":20
+        ,"faction":"Loyalists/Rebels"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"staff"
+                ,"dmg":5
+                ,"hits":1
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"missile"
+                ,"dmg":7
+                ,"hits":3
+                ,"attack_type":"fire"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Red Mage":{
+        "name":"Red Mage"
+        ,"evolution":["Silver Mage", "Arch Mage"]
+        ,"cost":40
+        ,"faction":"Loyalists/Rebels"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"staff"
+                ,"dmg":6
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"fireball"
+                ,"dmg":8
+                ,"hits":4
+                ,"attack_type":"fire"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Silver Mage":{
+        "name":"Silver Mage"
+        ,"cost":59
+        ,"faction":"Loyalists/Rebels"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"staff"
+                ,"dmg":7
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"missile"
+                ,"dmg":9
+                ,"hits":4
+                ,"attack_type":"fire"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Arch Mage":{
+        "name":"Arch Mage"
+        ,"evolution":["Great Mage"]
+        ,"cost":59
+        ,"faction":"Loyalists/Rebels"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"staff"
+                ,"dmg":7
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"missile"
+                ,"dmg":12
+                ,"hits":4
+                ,"attack_type":"fire"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Great Mage":{
+        "name":"Great Mage"
+        ,"cost":72
+        ,"faction":"Loyalists/Rebels"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":4
+        ,"attacks":[
+            {
+                "name":"staff"
+                ,"dmg":9
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"missile"
+                ,"dmg":16
+                ,"hits":4
+                ,"attack_type":"fire"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"White Mage":{
+        "name":"White Mage"
+        ,"evolution":["Mage of Light"]
+        ,"cost":40
+        ,"faction":"Loyalists/Rebels"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"staff"
+                ,"dmg":6
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"lightbeam"
+                ,"dmg":9
+                ,"hits":3
+                ,"attack_type":"arcane"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Mage of Light":{
+        "name":"Mage of Light"
+        ,"cost":64
+        ,"faction":"Loyalists/Rebels"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"morning star"
+                ,"dmg":7
+                ,"hits":3
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"lightbeam"
+                ,"dmg":12
+                ,"hits":3
+                ,"attack_type":"arcane"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Peasant":{
+        "name":"Peasant"
+        ,"evolution":["Bowman", "Spearman"]
+        ,"cost":8
+        ,"faction":"Loyalists"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":0
+        ,"attacks":[
+            {
+                "name":"pitchfork"
+                ,"dmg":5
+                ,"hits":2
+                ,"attack_type":"pierce"
+                ,"ranged":0
+            }
+            ,{
+                "name":"pitchfork"
+                ,"dmg":4
+                ,"hits":1
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Woodsman":{
+        "name":"Woodsman"
+        ,"evolution":["Bowman","Poacher"]
+        ,"cost":10
+        ,"faction":"Loyalists"
+        ,"race":"Humans"
+        ,"alignment":"neutral"
+        ,"lvl":0
+        ,"attacks":[
+            {
+                "name":"dagger"
+                ,"dmg":3
+                ,"hits":1
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"bow"
+                ,"dmg":4
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Bowman":{
+        "name":"Bowman"
+        ,"evolution":["Longbowman"]
+        ,"cost":14
+        ,"faction":"Loyalists"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"short sword"
+                ,"dmg":4
+                ,"hits":2
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"bow"
+                ,"dmg":6
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Longbowman":{
+        "name":"Longbowman"
+        ,"evolution":["Master Bowman"]
+        ,"cost":26
+        ,"faction":"Loyalists"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"sword"
+                ,"dmg":8
+                ,"hits":2
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"longbow"
+                ,"dmg":10
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Master Bowman":{
+        "name":"Master Bowman"
+        ,"cost":46
+        ,"faction":"Loyalists"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"sword"
+                ,"dmg":8
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"longbow"
+                ,"dmg":11
+                ,"hits":4
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Spearman":{
+        "name":"Spearman"
+        ,"evolution":["Javelineer", "Pikeman", "Swordsman"]
+        ,"cost":14
+        ,"faction":"Loyalists"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"spear"
+                ,"dmg":7
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":0
+                ,"first_strike":1
+            }
+            ,{
+                "name":"javelin"
+                ,"dmg":6
+                ,"hits":1
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Swordsman":{
+        "name":"Swordsman"
+        ,"evolution":["Royal Guard"]
+        ,"cost":25
+        ,"faction":"Loyalists"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"sword"
+                ,"dmg":8
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Royal Guard":{
+        "name":"Royal Guard"
+        ,"cost":43
+        ,"faction":"Loyalists"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"longsword"
+                ,"dmg":11
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Pikeman":{
+        "name":"Pikeman"
+        ,"evolution":["Halberdier"]
+        ,"cost":25
+        ,"faction":"Loyalists"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"pike"
+                ,"dmg":10
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":0
+                ,"first_strike":1
+            }
+        ]
+    }
+    ,"Halberdier":{
+        "name":"Halberdier"
+        ,"cost":44
+        ,"faction":"Loyalists"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"halberd"
+                ,"dmg":15
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":0
+                ,"first_strike":1
+            }
+            ,{
+                "name":"halberd"
+                ,"dmg":19
+                ,"hits":2
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Javelineer":{
+        "name":"Javelineer"
+        ,"cost":25
+        ,"faction":"Loyalists"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"spear"
+                ,"dmg":8
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":0
+                ,"first_strike":1
+            }
+            ,{
+                "name":"javelin"
+                ,"dmg":11
+                ,"hits":2
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Ruffian":{
+        "name":"Ruffian"
+        ,"evolution":["Footpad","Thug"]
+        ,"cost":6
+        ,"faction":"Knalgan Alliance"
+        ,"race":"Humans"
+        ,"alignment":"chaotic"
+        ,"lvl":0
+        ,"attacks":[
+            {
+                "name":"club"
+                ,"dmg":5
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Footpad":{
+        "name":"Footpad"
+        ,"evolution":["Outlaw"]
+        ,"cost":14
+        ,"faction":"Knalgan Alliance"
+        ,"race":"Humans"
+        ,"alignment":"chaotic"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"club"
+                ,"dmg":4
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"sling"
+                ,"dmg":5
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Outlaw":{
+        "name":"Outlaw"
+        ,"evolution":["Fugitive"]
+        ,"cost":28
+        ,"faction":"Knalgan Alliance"
+        ,"race":"Humans"
+        ,"alignment":"chaotic"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"mace"
+                ,"dmg":8
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"sling"
+                ,"dmg":6
+                ,"hits":3
+                ,"attack_type":"impact"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Fugitive":{
+        "name":"Fugitive"
+        ,"cost":56
+        ,"faction":"Knalgan Alliance"
+        ,"race":"Humans"
+        ,"alignment":"chaotic"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"mace"
+                ,"dmg":11
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"sling"
+                ,"dmg":7
+                ,"hits":4
+                ,"attack_type":"impact"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Thug":{
+        "name":"Thug"
+        ,"evolution":["Bandit"]
+        ,"cost":13
+        ,"faction":"Knalgan Alliance"
+        ,"race":"Humans"
+        ,"alignment":"chaotic"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"club"
+                ,"dmg":5
+                ,"hits":4
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Bandit":{
+        "name":"Bandit"
+        ,"evolution":["Highwayman"]
+        ,"cost":23
+        ,"faction":"Knalgan Alliance"
+        ,"race":"Humans"
+        ,"alignment":"chaotic"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"mace"
+                ,"dmg":8
+                ,"hits":4
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Highwayman":{
+        "name":"Highwayman"
+        ,"cost":46
+        ,"faction":"Knalgan Alliance"
+        ,"race":"Humans"
+        ,"alignment":"chaotic"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"mace"
+                ,"dmg":11
+                ,"hits":4
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Poacher":{
+        "name":"Poacher"
+        ,"evolution":["Trapper"]
+        ,"cost":14
+        ,"faction":"Knalgan Alliance"
+        ,"race":"Humans"
+        ,"alignment":"chaotic"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"dagger"
+                ,"dmg":3
+                ,"hits":2
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"bow"
+                ,"dmg":4
+                ,"hits":4
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Trapper":{
+        "name":"Trapper"
+        ,"evolution":["Huntsman", "Ranger"]
+        ,"cost":27
+        ,"faction":"Knalgan Alliance"
+        ,"race":"Humans"
+        ,"alignment":"chaotic"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"dagger"
+                ,"dmg":4
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"bow"
+                ,"dmg":6
+                ,"hits":4
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Huntsman":{
+        "name":"Huntsman"
+        ,"cost":54
+        ,"faction":"Knalgan Alliance"
+        ,"race":"Humans"
+        ,"alignment":"chaotic"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"dagger"
+                ,"dmg":5
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"bow"
+                ,"dmg":9
+                ,"hits":4
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Ranger":{
+        "name":"Ranger"
+        ,"cost":60
+        ,"faction":"Knalgan Alliance"
+        ,"race":"Humans"
+        ,"alignment":"chaotic"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"sword"
+                ,"dmg":7
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"bow"
+                ,"dmg":7
+                ,"hits":4
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Mermaid Initiate":{
+        "name":"Mermaid Initiate"
+        ,"evolution":["Mermaid Priestess","Mermaid Enchantress"]
+        ,"cost":19
+        ,"faction":"Rebels"
+        ,"race":"Mermen"
+        ,"alignment":"lawful"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"staff"
+                ,"dmg":7
+                ,"hits":1
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"water spray"
+                ,"dmg":8
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Mermaid Priestess":{
+        "name":"Mermaid Priestess"
+        ,"evolution":["Mermaid Diviner"]
+        ,"cost":38
+        ,"faction":"Rebels"
+        ,"race":"Mermen"
+        ,"alignment":"lawful"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"staff"
+                ,"dmg":5
+                ,"hits":3
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"lightbeam"
+                ,"dmg":6
+                ,"hits":4
+                ,"attack_type":"arcane"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Mermaid Diviner":{
+        "name":"Mermaid Initiate"
+        ,"cost":57
+        ,"faction":"Rebels"
+        ,"race":"Mermen"
+        ,"alignment":"lawful"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"staff"
+                ,"dmg":7
+                ,"hits":3
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"lightbeam"
+                ,"dmg":8
+                ,"hits":4
+                ,"attack_type":"impact"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Mermaid Enchantress":{
+        "name":"Mermaid Enchantress"
+        ,"evolution":["Mermaid Siren"]
+        ,"cost":33
+        ,"faction":"Rebels"
+        ,"race":"Mermen"
+        ,"alignment":"lawful"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"staff"
+                ,"dmg":9
+                ,"hits":1
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"water spray"
+                ,"dmg":14
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Mermaid Siren":{
+        "name":"Mermaid Siren"
+        ,"cost":52
+        ,"faction":"Rebels"
+        ,"race":"Mermen"
+        ,"alignment":"lawful"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"naia touch"
+                ,"dmg":12
+                ,"hits":1
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"water spray"
+                ,"dmg":15
+                ,"hits":3
+                ,"attack_type":"impact"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Merman Fighter":{
+        "name":"Merman Fighter"
+        ,"evolution":["Merman Warrior"]
+        ,"cost":14
+        ,"faction":"Loyalists"
+        ,"race":"Mermen"
+        ,"alignment":"lawful"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"trident"
+                ,"dmg":6
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Merman Warrior":{
+        "name":"Merman Warrior"
+        ,"evolution":["Merman Triton", "Merman Hoplite"]
+        ,"cost":28
+        ,"faction":"Loyalists"
+        ,"race":"Mermen"
+        ,"alignment":"lawful"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"trident"
+                ,"dmg":10
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Merman Triton":{
+        "name":"Merman Triton"
+        ,"cost":43
+        ,"faction":"Loyalists"
+        ,"race":"Mermen"
+        ,"alignment":"lawful"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"trident"
+                ,"dmg":14
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":0
+            }
+            ,{
+                "name":"trident"
+                ,"dmg":19
+                ,"hits":2
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Merman Hoplite":{
+        "name":"Merman Hoplite"
+        ,"cost":43
+        ,"faction":"Loyalists"
+        ,"race":"Mermen"
+        ,"alignment":"lawful"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"trident"
+                ,"dmg":15
+                ,"hits":2
+                ,"attack_type":"pierce"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Merman Hunter":{
+        "name":"Merman Hunter"
+        ,"evolution":["Merman Netcaster", "Merman Spearman"]
+        ,"cost":15
+        ,"faction":"Rebels"
+        ,"race":"Mermen"
+        ,"alignment":"lawful"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"spear"
+                ,"dmg":4
+                ,"hits":2
+                ,"attack_type":"pierce"
+                ,"ranged":0
+            }
+            ,{
+                "name":"spear"
+                ,"dmg":5
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Merman Spearman":{
+        "name":"Merman Spearman"
+        ,"evolution":["Merman Javelineer"]
+        ,"cost":27
+        ,"faction":"Rebels"
+        ,"race":"Mermen"
+        ,"alignment":"lawful"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"spear"
+                ,"dmg":6
+                ,"hits":2
+                ,"attack_type":"pierce"
+                ,"ranged":0
+            }
+            ,{
+                "name":"spear"
+                ,"dmg":6
+                ,"hits":4
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Merman Javelineer":{
+        "name":"Merman Javelineer"
+        ,"cost":48
+        ,"faction":"Rebels"
+        ,"race":"Mermen"
+        ,"alignment":"lawful"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"spear"
+                ,"dmg":8
+                ,"hits":2
+                ,"attack_type":"pierce"
+                ,"ranged":0
+            }
+            ,{
+                "name":"spear"
+                ,"dmg":10
+                ,"hits":4
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Merman Netcaster":{
+        "name":"Merman Netcaster"
+        ,"evolution":["Merman Entangler"]
+        ,"cost":27
+        ,"faction":"Rebels"
+        ,"race":"Mermen"
+        ,"alignment":"lawful"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"club"
+                ,"dmg":6
+                ,"hits":3
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"net"
+                ,"dmg":9
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Merman Entangler":{
+        "name":"Merman Entangler"
+        ,"cost":46
+        ,"faction":"Rebels"
+        ,"race":"Mermen"
+        ,"alignment":"lawful"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"club"
+                ,"dmg":8
+                ,"hits":3
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"trident"
+                ,"dmg":8
+                ,"hits":3
+                ,"attack_type":"impact"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Naga Fighter":{
+        "name":"Naga Fighter"
+        ,"evolution":["Naga Warrior"]
+        ,"cost":14
+        ,"faction":"Northerners"
+        ,"race":"Naga"
+        ,"alignment":"neutral"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"sword"
+                ,"dmg":4
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Naga Warrior":{
+        "name":"Naga Warrior"
+        ,"evolution":["Naga Myrmidon"]
+        ,"cost":27
+        ,"faction":"Northerners"
+        ,"race":"Naga"
+        ,"alignment":"neutral"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"sword"
+                ,"dmg":7
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Naga Myrmidon":{
+        "name":"Naga Myrmidon"
+        ,"cost":48
+        ,"faction":"Northerners"
+        ,"race":"Naga"
+        ,"alignment":"neutral"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"sword"
+                ,"dmg":9
+                ,"hits":5
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Orcish Leader":{
+        "name":"Orcish Leader"
+        ,"evolution":["Orcish Ruler"]
+        ,"cost":20
+        ,"faction":"Northerners"
+        ,"race":"Orcs"
+        ,"alignment":"chaotic"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"sword"
+                ,"dmg":7
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"crossbow"
+                ,"dmg":5
+                ,"hits":2
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Orcish Ruler":{
+        "name":"Orcish Ruler"
+        ,"evolution":["Orcish Sovereign"]
+        ,"cost":35
+        ,"faction":"Northerners"
+        ,"race":"Orcs"
+        ,"alignment":"chaotic"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"greatsword"
+                ,"dmg":9
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"crossbow"
+                ,"dmg":6
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Orcish Sovereign":{
+        "name":"Orcish Sovereign"
+        ,"cost":50
+        ,"faction":"Northerners"
+        ,"race":"Orcs"
+        ,"alignment":"chaotic"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"greatsword"
+                ,"dmg":10
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"crossbow"
+                ,"dmg":9
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Orcish Archer":{
+        "name":"Orcish Archer"
+        ,"evolution":["Orcish Crossbowman"]
+        ,"cost":14
+        ,"faction":"Northerners"
+        ,"race":"Orcs"
+        ,"alignment":"chaotic"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"dagger"
+                ,"dmg":3
+                ,"hits":2
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"bow"
+                ,"dmg":6
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+            ,{
+                "name":"bow"
+                ,"dmg":7
+                ,"hits":2
+                ,"attack_type":"fire"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Orcish Crossbowman":{
+        "name":"Orcish Crossbowman"
+        ,"evolution":["Orcish Slurbow"]
+        ,"cost":26
+        ,"faction":"Northerners"
+        ,"race":"Orcs"
+        ,"alignment":"chaotic"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"short sword"
+                ,"dmg":4
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"crossbow"
+                ,"dmg":8
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+            ,{
+                "name":"crossbow"
+                ,"dmg":10
+                ,"hits":2
+                ,"attack_type":"fire"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Orcish Slurbow":{
+        "name":"Orcish Slurbow"
+        ,"cost":43
+        ,"faction":"Northerners"
+        ,"race":"Orcs"
+        ,"alignment":"chaotic"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"short sword"
+                ,"dmg":8
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"crossbow"
+                ,"dmg":12
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+            ,{
+                "name":"crossbow"
+                ,"dmg":15
+                ,"hits":2
+                ,"attack_type":"fire"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Orcish Assassin":{
+        "name":"Orcish Assassin"
+        ,"evolution":["Orcish Slayer"]
+        ,"cost":17
+        ,"faction":"Northerners"
+        ,"race":"Orcs"
+        ,"alignment":"chaotic"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"dagger"
+                ,"dmg":7
+                ,"hits":1
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"throwing knives"
+                ,"dmg":3
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Orcish Slayer":{
+        "name":"Orcish Slayer"
+        ,"cost":33
+        ,"faction":"Northerners"
+        ,"race":"Orcs"
+        ,"alignment":"chaotic"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"dagger"
+                ,"dmg":9
+                ,"hits":2
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"throwing knives"
+                ,"dmg":6
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Orcish Grunt":{
+        "name":"Orcish Grunt"
+        ,"evolution":["Orcish Warrior"]
+        ,"cost":12
+        ,"faction":"Northerners"
+        ,"race":"Orcs"
+        ,"alignment":"chaotic"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"sword"
+                ,"dmg":9
+                ,"hits":2
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Orcish Warrior":{
+        "name":"Orcish Warrior"
+        ,"evolution":["Orcish Warlord"]
+        ,"cost":26
+        ,"faction":"Northerners"
+        ,"race":"Orcs"
+        ,"alignment":"chaotic"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"greatsword"
+                ,"dmg":10
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Orcish Warlord":{
+        "name":"Orcish Warlord"
+        ,"cost":48
+        ,"faction":"Northerners"
+        ,"race":"Orcs"
+        ,"alignment":"chaotic"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"greatsword"
+                ,"dmg":15
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"bow"
+                ,"dmg":8
+                ,"hits":2
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Saurian Augur":{
+        "name":"Saurian Augur"
+        ,"evolution":["Saurian Oracle", "Saurian Soothsayer"]
+        ,"cost":16
+        ,"faction":"Drakes"
+        ,"race":"Saurians"
+        ,"alignment":"chaotic"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"staff"
+                ,"dmg":4
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"curse"
+                ,"dmg":5
+                ,"hits":3
+                ,"attack_type":"cold"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Saurian Oracle":{
+        "name":"Saurian Oracle"
+        ,"cost":27
+        ,"faction":"Drakes"
+        ,"race":"Saurians"
+        ,"alignment":"chaotic"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"staff"
+                ,"dmg":4
+                ,"hits":3
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"curse"
+                ,"dmg":8
+                ,"hits":3
+                ,"attack_type":"cold"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Saurian Soothsayer":{
+        "name":"Saurian Soothsayer"
+        ,"cost":27
+        ,"faction":"Drakes"
+        ,"race":"Saurians"
+        ,"alignment":"chaotic"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"staff"
+                ,"dmg":5
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"curse"
+                ,"dmg":6
+                ,"hits":3
+                ,"attack_type":"cold"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Saurian Skirmisher":{
+        "name":"Saurian Skirmisher"
+        ,"evolution":["Saurian Ambusher"]
+        ,"cost":15
+        ,"faction":"Drakes"
+        ,"race":"Saurians"
+        ,"alignment":"chaotic"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"spear"
+                ,"dmg":4
+                ,"hits":4
+                ,"attack_type":"pierce"
+                ,"ranged":0
+            }
+            ,{
+                "name":"spear"
+                ,"dmg":4
+                ,"hits":2
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Saurian Ambusher":{
+        "name":"Saurian Ambusher"
+        ,"evolution":["Saurian Flanker"]
+        ,"cost":30
+        ,"faction":"Drakes"
+        ,"race":"Saurians"
+        ,"alignment":"chaotic"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"spear"
+                ,"dmg":6
+                ,"hits":4
+                ,"attack_type":"pierce"
+                ,"ranged":0
+            }
+            ,{
+                "name":"spear"
+                ,"dmg":5
+                ,"hits":2
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Saurian Flanker":{
+        "name":"Saurian Flanker"
+        ,"cost":46
+        ,"faction":"Drakes"
+        ,"race":"Saurians"
+        ,"alignment":"chaotic"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"spear"
+                ,"dmg":8
+                ,"hits":4
+                ,"attack_type":"pierce"
+                ,"ranged":0
+            }
+            ,{
+                "name":"spear"
+                ,"dmg":7
+                ,"hits":2
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Ghost":{
+        "name":"Ghost"
+        ,"evolution":["Shadow" ,"Wraith"]
+        ,"cost":18
+        ,"faction":"Undead"
+        ,"race":"Undead"
+        ,"alignment":"chaotic"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"touch"
+                ,"dmg":4
+                ,"hits":3
+                ,"attack_type":"arcane"
+                ,"ranged":0
+            }
+            ,{
+                "name":"wail"
+                ,"dmg":3
+                ,"hits":3
+                ,"attack_type":"cold"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Wraith":{
+        "name":"Wraith"
+        ,"evolution":["Spectre"]
+        ,"cost":38
+        ,"faction":"Undead"
+        ,"race":"Undead"
+        ,"alignment":"chaotic"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"baneblade"
+                ,"dmg":6
+                ,"hits":4
+                ,"attack_type":"arcane"
+                ,"ranged":0
+            }
+            ,{
+                "name":"wail"
+                ,"dmg":4
+                ,"hits":3
+                ,"attack_type":"cold"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Spectre":{
+        "name":"Spectre"
+        ,"cost":52
+        ,"faction":"Undead"
+        ,"race":"Undead"
+        ,"alignment":"chaotic"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"baneblade"
+                ,"dmg":9
+                ,"hits":4
+                ,"attack_type":"arcane"
+                ,"ranged":0
+            }
+            ,{
+                "name":"wail"
+                ,"dmg":6
+                ,"hits":3
+                ,"attack_type":"cold"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Shadow":{
+        "name":"Shadow"
+        ,"evolution":["Nightgaunt"]
+        ,"cost":38
+        ,"faction":"Undead"
+        ,"race":"Undead"
+        ,"alignment":"chaotic"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"claws"
+                ,"dmg":8
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Nightgaunt":{
+        "name":"Nightgaunt"
+        ,"cost":52
+        ,"faction":"Undead"
+        ,"race":"Undead"
+        ,"alignment":"chaotic"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"claws"
+                ,"dmg":10
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Ghoul":{
+        "name":"Ghoul"
+        ,"evolution":["Necrophage"]
+        ,"cost":16
+        ,"faction":"Undead"
+        ,"race":"Undead"
+        ,"alignment":"chaotic"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"claws"
+                ,"dmg":4
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Necrophage":{
+        "name":"Necrophage"
+        ,"evolution":["Ghast"]
+        ,"cost":27
+        ,"faction":"Undead"
+        ,"race":"Undead"
+        ,"alignment":"chaotic"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"claws"
+                ,"dmg":7
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Ghast":{
+        "name":"Ghoul"
+        ,"cost":41
+        ,"faction":"Undead"
+        ,"race":"Undead"
+        ,"alignment":"chaotic"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"bite"
+                ,"dmg":10
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Skeleton":{
+        "name":"Skeleton"
+        ,"evolution":["Deathblade", "Revenant"]
+        ,"cost":15
+        ,"faction":"Undead"
+        ,"race":"Undead"
+        ,"alignment":"chaotic"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"axe"
+                ,"dmg":7
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Revenant":{
+        "name":"Revenant"
+        ,"evolution":["Draug"]
+        ,"cost":28
+        ,"faction":"Undead"
+        ,"race":"Undead"
+        ,"alignment":"chaotic"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"axe"
+                ,"dmg":8
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Draug":{
+        "name":"Draug"
+        ,"cost":50
+        ,"faction":"Undead"
+        ,"race":"Undead"
+        ,"alignment":"chaotic"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"axe"
+                ,"dmg":12
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Deathblade":{
+        "name":"Deathblade"
+        ,"cost":28
+        ,"faction":"Undead"
+        ,"race":"Undead"
+        ,"alignment":"chaotic"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"axe"
+                ,"dmg":8
+                ,"hits":5
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Skeleton Archer":{
+        "name":"Skeleton Archer"
+        ,"evolution":["Bone Shooter"]
+        ,"cost":14
+        ,"faction":"Undead"
+        ,"race":"Undead"
+        ,"alignment":"chaotic"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"fist"
+                ,"dmg":3
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"bow"
+                ,"dmg":6
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Bone Shooter":{
+        "name":"Bone Shooter"
+        ,"evolution":["Banebow"]
+        ,"cost":26
+        ,"faction":"Undead"
+        ,"race":"Undead"
+        ,"alignment":"chaotic"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"dagger"
+                ,"dmg":6
+                ,"hits":2
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"bow"
+                ,"dmg":10
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Banebow":{
+        "name":"Banebow"
+        ,"cost":38
+        ,"faction":"Undead"
+        ,"race":"Undead"
+        ,"alignment":"chaotic"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"dagger"
+                ,"dmg":8
+                ,"hits":2
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"bow"
+                ,"dmg":14
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Walking Corpse":{
+        "name":"Walking Corpse"
+        ,"evolution":["Soulless"]
+        ,"cost":8
+        ,"faction":"Undead"
+        ,"race":"Undead"
+        ,"alignment":"chaotic"
+        ,"lvl":0
+        ,"attacks":[
+            {
+                "name":"touch"
+                ,"dmg":6
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+                ,"plague":1
+            }
+        ]
+    }
+    ,"Soulless":{
+        "name":"Soulless"
+        ,"cost":13
+        ,"faction":"Undead"
+        ,"race":"Undead"
+        ,"alignment":"chaotic"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"touch"
+                ,"dmg":7
+                ,"hits":3
+                ,"attack_type":"impact"
+                ,"ranged":0
+                ,"plague":1
+            }
+        ]
+    }
+    ,"Wolf Rider":{
+        "name":"Wolf Rider"
+        ,"evolution":["Goblin Knight", "Goblin Pillager"]
+        ,"cost":17
+        ,"faction":"Northerners"
+        ,"race":"Wolves"
+        ,"alignment":"chaotic"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"fangs"
+                ,"dmg":5
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Goblin Pillager":{
+        "name":"Goblin Pillager"
+        ,"cost":32
+        ,"faction":"Northerners"
+        ,"race":"Wolves"
+        ,"alignment":"chaotic"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"fangs"
+                ,"dmg":5
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"torch"
+                ,"dmg":7
+                ,"hits":3
+                ,"attack_type":"fire"
+                ,"ranged":0
+            }
+            ,{
+                "name":"net"
+                ,"dmg":6
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Goblin Knight":{
+        "name":"Goblin Knight"
+        ,"evolution":["Direwolf Rider"]
+        ,"cost":32
+        ,"faction":"Northerners"
+        ,"race":"Wolves"
+        ,"alignment":"chaotic"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"fangs"
+                ,"dmg":7
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Direwolf Rider":{
+        "name":"Direwolf Rider"
+        ,"cost":41
+        ,"faction":"Northerners"
+        ,"race":"Wolves"
+        ,"alignment":"chaotic"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"fangs"
+                ,"dmg":9
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"claws"
+                ,"dmg":4
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Wose":{
+        "name":"Wose"
+        ,"evolution":["Elder Wose"]
+        ,"cost":20
+        ,"faction":"Rebels"
+        ,"race":"Woses"
+        ,"alignment":"lawful"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"crush"
+                ,"dmg":13
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Elder Wose":{
+        "name":"Elder Wose"
+        ,"evolution":["Ancient Wose"]
+        ,"cost":31
+        ,"faction":"Rebels"
+        ,"race":"Woses"
+        ,"alignment":"lawful"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"crush"
+                ,"dmg":19
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Ancient Wose":{
+        "name":"Wose"
+        ,"cost":48
+        ,"faction":"Rebels"
+        ,"race":"Woses"
+        ,"alignment":"lawful"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"crush"
+                ,"dmg":25
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Thief":{
+        "name":"Thief"
+        ,"evolution":["Rogue"]
+        ,"cost":13
+        ,"faction":"Knalgan Alliance"
+        ,"race":"Humans"
+        ,"alignment":"chaotic"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"dagger"
+                ,"dmg":4
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Rogue":{
+        "name":"Rogue"
+        ,"evolution":["Assassin"]
+        ,"cost":24
+        ,"faction":"Knalgan Alliance"
+        ,"race":"Humans"
+        ,"alignment":"chaotic"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"dagger"
+                ,"dmg":6
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"knife"
+                ,"dmg":4
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Assassin":{
+        "name":"Assassin"
+        ,"cost":44
+        ,"faction":"Knalgan Alliance"
+        ,"race":"Humans"
+        ,"alignment":"chaotic"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"dagger"
+                ,"dmg":8
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"knife"
+                ,"dmg":5
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Arif":{
+        "name":"Arif"
+        ,"evolution":["Ghazi", "Mudafi"]
+        ,"cost":18
+        ,"faction":"Khalifate"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"long sword"
+                ,"dmg":9
+                ,"hits":2
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Ghazi":{
+        "name":"Ghazi"
+        ,"evolution":["Shuja"]
+        ,"cost":38
+        ,"faction":"Khalifate"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"long sword"
+                ,"dmg":13
+                ,"hits":2
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"shield bash"
+                ,"dmg":10
+                ,"hits":1
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Shuja":{
+        "name":"Shuja"
+        ,"evolution":["Khalid"]
+        ,"cost":58
+        ,"faction":"Khalifate"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"long sword"
+                ,"dmg":13
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"shield bash"
+                ,"dmg":11
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Khalid":{
+        "name":"Khalid"
+        ,"cost":78
+        ,"faction":"Khalifate"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":4
+        ,"attacks":[
+            {
+                "name":"long sword"
+                ,"dmg":13
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"shield bash"
+                ,"dmg":11
+                ,"hits":3
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Mudafi":{
+        "name":"Mudafi"
+        ,"evolution":["Rasikh"]
+        ,"cost":38
+        ,"faction":"Khalifate"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"spear"
+                ,"dmg":15
+                ,"hits":2
+                ,"attack_type":"pierce"
+                ,"ranged":0
+                ,"first_strike":1
+            }
+        ]
+    }
+    ,"Rasikh":{
+        "name":"Rasikh"
+        ,"cost":58
+        ,"faction":"Khalifate"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"spear"
+                ,"dmg":15
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":0
+                ,"first_strike":1
+            }
+        ]
+    }
+    ,"Hakim":{
+        "name":"Hakim"
+        ,"evolution":["Tabib"]
+        ,"cost":17
+        ,"faction":"Khalifate"
+        ,"race":"Humans"
+        ,"alignment":"liminal"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"mace"
+                ,"dmg":7
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Tabib":{
+        "name":"Tabib"
+        ,"cost":17
+        ,"faction":"Khalifate"
+        ,"race":"Humans"
+        ,"alignment":"liminal"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"mace"
+                ,"dmg":9
+                ,"hits":3
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Jundi":{
+        "name":"Jundi"
+        ,"evolution":["Monawish", "Muharib"]
+        ,"cost":15
+        ,"faction":"Khalifate"
+        ,"race":"Humans"
+        ,"alignment":"liminal"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"axe"
+                ,"dmg":5
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"composite bow"
+                ,"dmg":6
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Muharib":{
+        "name":"Muharib"
+        ,"evolution":["Batal"]
+        ,"cost":35
+        ,"faction":"Khalifate"
+        ,"race":"Humans"
+        ,"alignment":"liminal"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"axe"
+                ,"dmg":8
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"composite bow"
+                ,"dmg":8
+                ,"hits":4
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Batal":{
+        "name":"Batal"
+        ,"cost":60
+        ,"faction":"Khalifate"
+        ,"race":"Humans"
+        ,"alignment":"liminal"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"axe"
+                ,"dmg":10
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"composite bow"
+                ,"dmg":10
+                ,"hits":4
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Monawish":{
+        "name":"Monawish"
+        ,"evolution":["Mighwar"]
+        ,"cost":35
+        ,"faction":"Khalifate"
+        ,"race":"Humans"
+        ,"alignment":"liminal"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"long sword"
+                ,"dmg":9
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Mighwar":{
+        "name":"Mighwar"
+        ,"cost":65
+        ,"faction":"Khalifate"
+        ,"race":"Humans"
+        ,"alignment":"liminal"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"long sword"
+                ,"dmg":10
+                ,"hits":5
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Khaiyal":{
+        "name":"Khaiyal"
+        ,"evolution":["Faris", "Qanas"]
+        ,"cost":21
+        ,"faction":"Khalifate"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"lance"
+                ,"dmg":20
+                ,"hits":1
+                ,"attack_type":"pierce"
+                ,"ranged":0
+            }
+            ,{
+                "name":"mace"
+                ,"dmg":6
+                ,"hits":3
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Faris":{
+        "name":"Faris"
+        ,"evolution":["Mufariq"]
+        ,"cost":40
+        ,"faction":"Khalifate"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"lance"
+                ,"dmg":29
+                ,"hits":1
+                ,"attack_type":"pierce"
+                ,"ranged":0
+            }
+            ,{
+                "name":"mace"
+                ,"dmg":9
+                ,"hits":3
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Mufariq":{
+        "name":"Mufariq"
+        ,"cost":80
+        ,"faction":"Khalifate"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"lance"
+                ,"dmg":44
+                ,"hits":1
+                ,"attack_type":"pierce"
+                ,"ranged":0
+            }
+            ,{
+                "name":"mace"
+                ,"dmg":14
+                ,"hits":3
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Qanas":{
+        "name":"Qanas"
+        ,"evolution":["Hadaf"]
+        ,"cost":34
+        ,"faction":"Khalifate"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"mace"
+                ,"dmg":8
+                ,"hits":3
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"bow"
+                ,"dmg":7
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Hadaf":{
+        "name":"Hadaf"
+        ,"cost":55
+        ,"faction":"Khalifate"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"mace"
+                ,"dmg":10
+                ,"hits":3
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"bow"
+                ,"dmg":9
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Rami":{
+        "name":"Rami"
+        ,"evolution":["Qanas", "Saree"]
+        ,"cost":16
+        ,"faction":"Khalifate"
+        ,"race":"Humans"
+        ,"alignment":"liminal"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"mace"
+                ,"dmg":5
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"composite bow"
+                ,"dmg":7
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Saree":{
+        "name":"Saree"
+        ,"evolution":["Jawal"]
+        ,"cost":35
+        ,"faction":"Khalifate"
+        ,"race":"Humans"
+        ,"alignment":"liminal"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"mace"
+                ,"dmg":7
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"composite bow"
+                ,"dmg":9
+                ,"hits":4
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Jawal":{
+        "name":"Jawal"
+        ,"cost":50
+        ,"faction":"Khalifate"
+        ,"race":"Humans"
+        ,"alignment":"liminal"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"mace"
+                ,"dmg":8
+                ,"hits":3
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"composite bow"
+                ,"dmg":10
+                ,"hits":5
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Naffat":{
+        "name":"Naffat"
+        ,"evolution":["Qatif-al-nar"]
+        ,"cost":19
+        ,"faction":"Khalifate"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"naptha attack"
+                ,"dmg":8
+                ,"hits":2
+                ,"attack_type":"fire"
+                ,"ranged":0
+            }
+            ,{
+                "name":"fire arrow"
+                ,"dmg":6
+                ,"hits":3
+                ,"attack_type":"fire"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Qatif-al-nar":{
+        "name":"Qatif-al-nar"
+        ,"evolution":["Tineen"]
+        ,"cost":35
+        ,"faction":"Khalifate"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"naptha attack"
+                ,"dmg":10
+                ,"hits":2
+                ,"attack_type":"fire"
+                ,"ranged":0
+            }
+            ,{
+                "name":"fire arrow"
+                ,"dmg":8
+                ,"hits":3
+                ,"attack_type":"fire"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Tineen":{
+        "name":"Tineen"
+        ,"cost":65
+        ,"faction":"Khalifate"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"naptha attack"
+                ,"dmg":10
+                ,"hits":3
+                ,"attack_type":"fire"
+                ,"ranged":0
+            }
+            ,{
+                "name":"fire arrow"
+                ,"dmg":9
+                ,"hits":4
+                ,"attack_type":"fire"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Falcon":{
+        "name":"Falcon"
+        ,"evolution":["Elder Falcon"]
+        ,"cost":12
+        ,"faction":"Khalifate"
+        ,"race":"Falcons"
+        ,"alignment":"neutral"
+        ,"lvl":0
+        ,"attacks":[
+            {
+                "name":"claws"
+                ,"dmg":2
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"beak"
+                ,"dmg":5
+                ,"hits":1
+                ,"attack_type":"pierce"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Elder Falcon":{
+        "name":"Elder Falcon"
+        ,"cost":18
+        ,"faction":"Khalifate"
+        ,"race":"Falcons"
+        ,"alignment":"neutral"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"claws"
+                ,"dmg":4
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"beak"
+                ,"dmg":9
+                ,"hits":1
+                ,"attack_type":"pierce"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Sergeant":{
+        "name":"Sergeant"
+        ,"evolution":["Lieutenant"]
+        ,"cost":19
+        ,"faction":"loyalists"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"sword"
+                ,"dmg":5
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"crossbow"
+                ,"dmg":4
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Lieutenant":{
+        "name":"Lieutenant"
+        ,"evolution":["General"]
+        ,"cost":35
+        ,"faction":"Loyalists"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"sword"
+                ,"dmg":8
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"crossbow"
+                ,"dmg":5
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"General":{
+        "name":"General"
+        ,"evolution":["Grand Marshal"]
+        ,"cost":54
+        ,"faction":"Loyalists"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":3
+        ,"attacks":[
+            {
+                "name":"longsword"
+                ,"dmg":9
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"crossbow"
+                ,"dmg":7
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Grand Marshall":{
+        "name":"Grand Marshall"
+        ,"cost":66
+        ,"faction":"Loyalists"
+        ,"race":"Humans"
+        ,"alignment":"lawful"
+        ,"lvl":4
+        ,"attacks":[
+            {
+                "name":"longsword"
+                ,"dmg":10
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+            ,{
+                "name":"crossbow"
+                ,"dmg":8
+                ,"hits":3
+                ,"attack_type":"pierce"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Young Ogre":{
+        "name":"Young Ogre"
+        ,"evolution":["Ogre"]
+        ,"cost":15
+        ,"faction":"Unknown"
+        ,"race":"Ogre"
+        ,"alignment":"neutral"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"cleaver"
+                ,"dmg":5
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Ogre":{
+        "name":"Ogre"
+        ,"cost":30
+        ,"faction":"Unknown"
+        ,"race":"Ogre"
+        ,"alignment":"neutral"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"cleaver"
+                ,"dmg":10
+                ,"hits":3
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Giant Rat":{
+        "name":"Giant Rat"
+        ,"cost":6
+        ,"faction":"Unknown"
+        ,"race":"Monsters"
+        ,"alignment":"chaotic"
+        ,"lvl":0
+        ,"attacks":[
+            {
+                "name":"bite"
+                ,"dmg":2
+                ,"hits":4
+                ,"attack_type":"blade"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Mudcrawler":{
+        "name":"Mudcrawler"
+        ,"evolution":["Giant Mudcrawler"]
+        ,"cost":5
+        ,"faction":"Unknown"
+        ,"race":"Monsters"
+        ,"alignment":"neutral"
+        ,"lvl":0
+        ,"attacks":[
+            {
+                "name":"mud glob"
+                ,"dmg":4
+                ,"hits":3
+                ,"attack_type":"impact"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Giant Mudcrawler":{
+        "name":"Giant Mudcrawler"
+        ,"cost":16
+        ,"faction":"Unknown"
+        ,"race":"Monsters"
+        ,"alignment":"neutral"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"fist"
+                ,"dmg":7
+                ,"hits":2
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+            ,{
+                "name":"mud glob"
+                ,"dmg":5
+                ,"hits":3
+                ,"attack_type":"impact"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Fire Guardian":{
+        "name":"Fire Guardian"
+        ,"cost":11
+        ,"faction":"Unknown"
+        ,"race":"Monsters"
+        ,"alignment":"neutral"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"fire claws"
+                ,"dmg":4
+                ,"hits":3
+                ,"attack_type":"fire"
+                ,"ranged":0
+            }
+            ,{
+                "name":"fire breath"
+                ,"dmg":8
+                ,"hits":2
+                ,"attack_type":"fire"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Fire Wraith":{
+        "name":"Fire Wraith"
+        ,"cost":22
+        ,"faction":"Unknown"
+        ,"race":"Monsters"
+        ,"alignment":"neutral"
+        ,"lvl":2
+        ,"attacks":[
+            {
+                "name":"fire claws"
+                ,"dmg":6
+                ,"hits":3
+                ,"attack_type":"fire"
+                ,"ranged":0
+            }
+            ,{
+                "name":"fire breath"
+                ,"dmg":12
+                ,"hits":2
+                ,"attack_type":"fire"
+                ,"ranged":1
+            }
+        ]
+    }
+    ,"Giant Scorpling":{
+        "name":"Giant Scorpling"
+        ,"evolution":["Giant Scorpion"]
+        ,"cost":12
+        ,"faction":"Unknown"
+        ,"race":"Monsters"
+        ,"alignment":"neutral"
+        ,"lvl":0
+        ,"attacks":[
+            {
+                "name":"sting"
+                ,"dmg":5
+                ,"hits":1
+                ,"attack_type":"pierce"
+                ,"ranged":0
+            }
+            ,{
+                "name":"pincers"
+                ,"dmg":2
+                ,"hits":4
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+        ]
+    }
+    ,"Giant Scorpion":{
+        "name":"Giant Scorpion"
+        ,"cost":16
+        ,"faction":"Unknown"
+        ,"race":"Monsters"
+        ,"alignment":"neutral"
+        ,"lvl":1
+        ,"attacks":[
+            {
+                "name":"sting"
+                ,"dmg":9
+                ,"hits":1
+                ,"attack_type":"pierce"
+                ,"ranged":0
+            }
+            ,{
+                "name":"pincers"
+                ,"dmg":4
+                ,"hits":4
+                ,"attack_type":"impact"
+                ,"ranged":0
+            }
+        ]
+    }
+
+
+
+
+
+
+}
+    

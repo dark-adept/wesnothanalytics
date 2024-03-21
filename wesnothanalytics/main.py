@@ -263,7 +263,7 @@ def parse_actions(bucket, player_list, flags):
     
     
     data = []
-    combat_data = []
+    combat_data = {}
     graveyard = {}
     
     plague = any([p["faction"]=="Undead" for p in player_list.values()])
@@ -397,17 +397,17 @@ def parse_actions(bucket, player_list, flags):
             if xo!=x or yo!=y:
                 
                 if (xo,yo) in graveyard:
-                    new_uid = f"{graveyard[(xo,yo)]:01d}X{unit_ids[graveyard[(xo,yo)]]:02d}"
-                    unit_list[(xo,yo)] = Unit(uid=new_uid, unit_def=unit_db["Walking Corpse"], side=graveyard[(xo,yo)])
-                    unit_ids[graveyard[(xo,yo)]] += 1 
+                    new_uid = f"{graveyard[(xo,yo)]['tombstone'].side:01d}X{unit_ids[graveyard[(xo,yo)]['tombstone'].side]:02d}"
+                    unit_list[(xo,yo)] = Unit(uid=new_uid, unit_def=unit_db["Walking Corpse"], side=graveyard[(xo,yo)]["tombstone"].side)
+                    unit_ids[graveyard[(xo,yo)]["tombstone"].side] += 1 
 
                     for i in range(len(data)-1,-1,-1):
                         cur_action = data[i]
-                        if cur_action["action"]=="attack" and ((xo,yo)==(cur_action["x"],cur_action["y"]) or (xo,yo)==(cur_action["xo"],cur_action["yo"])):
+                        if cur_action["action"]=="attack" and graveyard[(xo,yo)]["tombstone"].uid in cur_action["combat_ids"]:
 
                             resurrection = {
                                 "turn":cur_action["turn"]
-                                ,"side":graveyard[(xo,yo)]
+                                ,"side":graveyard[(xo,yo)]["tombstone"].side
                                 ,"action":"resurrect"
                                 ,"uid":new_uid
                                 ,"unit":"Walking Corpse"
@@ -416,6 +416,9 @@ def parse_actions(bucket, player_list, flags):
                                 }
 
                             data.insert(i+1,resurrection)
+
+                            combat_data[(cur_action["cid"],graveyard[(xo,yo)]["killer"])]["resurrected"] = new_uid
+
                             break
 
                     del graveyard[(xo,yo)]
@@ -435,9 +438,9 @@ def parse_actions(bucket, player_list, flags):
                 
                 
                 else:
-                    action_info = {"turn":turn,"side":side,"action":"move","uid":"X","unit":"PHANTOM","xo":xo,"yo":yo,"x":x,"y":y}
+                    # action_info = {"turn":turn,"side":side,"action":"move","uid":"X","unit":"PHANTOM","xo":xo,"yo":yo,"x":x,"y":y}
 
-                    data.append(action_info) 
+                    # data.append(action_info) 
                     flags["no_phantom_unit"] = False    
     
             
@@ -446,8 +449,8 @@ def parse_actions(bucket, player_list, flags):
         elif action["attack"]:
             
             
-#             cid = f"{1:02d}X{combats:03d}"
-#             combats += 1
+            cid = f"{1:02d}X{combats:03d}"
+            combats += 1
             
             tod = re.search(r'tod="([^"]+)"',action["attack"].head).group(1)
             
@@ -470,17 +473,17 @@ def parse_actions(bucket, player_list, flags):
            
             # Need to add resurrection to data
             if attacker_coord in graveyard:
-                new_uid = f"{graveyard[attacker_coord]:01d}X{unit_ids[graveyard[attacker_coord]]:02d}"
-                unit_list[attacker_coord] = Unit(uid=new_uid, unit_df=unit_db["Walking Corpse"], side=graveyard[attacker_coord])
-                unit_ids[graveyard[attacker_coord]] += 1 
+                new_uid = f"{graveyard[attacker_coord]['tombstone'].side:01d}X{unit_ids[graveyard[attacker_coord]['tombstone'].side]:02d}"
+                unit_list[attacker_coord] = Unit(uid=new_uid, unit_def=unit_db["Walking Corpse"], side=graveyard[attacker_coord]["tombstone"].side)
+                unit_ids[graveyard[attacker_coord]["tombstone"].side] += 1 
                 
                 for i in range(len(data)-1,-1,-1):
                     cur_action = data[i]
-                    if cur_action["action"]=="attack" and (attacker_coord==(cur_action["x"],cur_action["y"]) or attacker_coord==(cur_action["xo"],cur_action["yo"])):
+                    if cur_action["action"]=="attack" and graveyard[attacker_coord]["tombstone"].uid in cur_action["combat_ids"]:
                         
                         resurrection = {
                             "turn":cur_action["turn"]
-                            ,"side":graveyard[attacker_coord]
+                            ,"side":graveyard[attacker_coord]["tombstone"].side
                             ,"action":"resurrect"
                             ,"uid":new_uid
                             ,"unit":"Walking Corpse"
@@ -489,23 +492,25 @@ def parse_actions(bucket, player_list, flags):
                             }
                         
                         data.insert(i+1,resurrection)
+
+                        combat_data[(cur_action["cid"],graveyard[attacker_coord]["killer"])]["resurrected"] = new_uid
                         break
                 
                 del graveyard[attacker_coord]
                 
                 
             if defender_coord in graveyard:
-                new_uid = f"{graveyard[defender_coord]:01d}X{unit_ids[graveyard[defender_coord]]:02d}"
-                unit_list[defender_coord] = Unit(uid=new_uid, unit_def=unit_db["Walking Corpse"], side=graveyard[defender_coord])
-                unit_ids[graveyard[defender_coord]] += 1 
+                new_uid = f"{graveyard[defender_coord]['tombstone'].side:01d}X{unit_ids[graveyard[defender_coord]['tombstone'].side]:02d}"
+                unit_list[defender_coord] = Unit(uid=new_uid, unit_def=unit_db["Walking Corpse"], side=graveyard[defender_coord]["tombstone"].side)
+                unit_ids[graveyard[defender_coord]["tombstone"].side] += 1 
                 
                 for i in range(len(data)-1,-1,-1):
                     cur_action = data[i]
-                    if cur_action["action"]=="attack" and (defender_coord==(cur_action["x"],cur_action["y"]) or defender_coord==(cur_action["xo"],cur_action["yo"])):
+                    if cur_action["action"]=="attack" and graveyard[defender_coord]["tombstone"].uid in cur_action["combat_ids"]:
                         
                         resurrection = {
                             "turn":cur_action["turn"]
-                            ,"side":graveyard[defender_coord]
+                            ,"side":graveyard[defender_coord]["tombstone"].side
                             ,"action":"resurrect"
                             ,"uid":new_uid
                             ,"unit":"Walking Corpse"
@@ -514,6 +519,9 @@ def parse_actions(bucket, player_list, flags):
                             }
                         
                         data.insert(i+1,resurrection)
+
+                        combat_data[(cur_action["cid"],graveyard[defender_coord]["killer"])]["resurrected"] = new_uid
+
                         break
                 
                 del graveyard[defender_coord]
@@ -533,8 +541,16 @@ def parse_actions(bucket, player_list, flags):
                         
                         for i in range(len(data)-1,-1,-1):
                             cur_action = data[i]
-                            if cur_action["action"]=="attack" and (attacker_coord==(cur_action["x"],cur_action["y"]) or (attacker_coord)==(cur_action["xo"],cur_action["yo"])):
+                            if cur_action["action"]=="attack" and a.uid in cur_action["combat_ids"]:
                                 data.insert(i+1,{"turn":cur_action["turn"],"side":a.side,"action":"level","uid":a.uid,"unit":attacker,"x":attacker_x,"y":attacker_y})
+                                
+                                try:
+                                    combat_data[(cur_action["cid"],a.uid)]["leveled"] = attacker
+                                except:
+                                    pass
+                                    # print(cur_action["cid"],a.uid,[v for k,v in combat_data.keys() if k==cur_action["cid"]])
+
+                                break
                                 
                 
                 
@@ -547,8 +563,15 @@ def parse_actions(bucket, player_list, flags):
  
                         for i in range(len(data)-1,-1,-1):
                             cur_action = data[i]
-                            if cur_action["action"]=="attack" and (defender_coord==(cur_action["x"],cur_action["y"]) or (defender_coord)==(cur_action["xo"],cur_action["yo"])):
+                            if cur_action["action"]=="attack" and d.uid in cur_action["combat_ids"]:
                                 data.insert(i+1,{"turn":cur_action["turn"],"side":d.side,"action":"level","uid":d.uid,"unit":defender,"x":defender_x,"y":defender_y})
+                                
+                                try:
+                                    combat_data[(cur_action["cid"],d.uid)]["leveled"] = defender
+                                except:
+                                    pass
+                                    # print(cur_action["cid"],d.uid,[v for k,v in combat_data.keys() if k==cur_action["cid"]])
+                                break
                         
 
                     
@@ -614,31 +637,63 @@ def parse_actions(bucket, player_list, flags):
                         break
 
                             
+                    distance = "ranged" if attacker_attack.ranged else "melee"
+                    stats = {
+                        attacker_coord:{
+                            "dmg":0
+                            ,"dmg_taken":0
+                            ,"hits":0
+                            ,"hits_taken":0
+                            ,"uid":a.uid
+                            ,"unit":a.name
+                            ,"oid":d.uid
+                            ,"opponent":d.name
+                            ,"opp_coord":defender_coord
+                            ,"position":"attacker"
+                            ,"victory":False
+                            ,"attack":attacker_attack
+                            ,"distance":distance
+                            ,"hits_remaining":attacker_attack.hits
+                            }
+                        ,defender_coord:{
+                            "dmg":0
+                            ,"dmg_taken":0
+                            ,"hits":0
+                            ,"hits_taken":0
+                            ,"uid":d.uid
+                            ,"unit":d.name
+                            ,"oid":a.uid
+                            ,"opponent":a.name
+                            ,"opp_coord":attacker_coord
+                            ,"position":"defender"
+                            ,"victory":False
+                            ,"attack":None if not retaliation else defender_attack
+                            ,"distance":None if not retaliation else distance
+                            ,"hits_remaining":0 if not retaliation else defender_attack.hits
+                            }
+                    }
                     
-                    
+
                     if retaliation:
                         if defender_attack.first_strike==1 and attacker_attack.first_strike==0:
-                            combatants = [(d,defender_attack,defender_coord,"defender"),(a,attacker_attack,attacker_coord,"attacker")]
+                            combatants = [defender_coord,attacker_coord]
                         else:
-                            combatants = [(a,attacker_attack,attacker_coord,"attacker"),(d,defender_attack,defender_coord,"defender")]
-                    
-                    
+                            combatants = [attacker_coord,defender_coord]
+
                     else:
-                        combatants = [(a,attacker_attack,attacker_coord,"attacker")]
+                        combatants = [attacker_coord]
                     
                     
-#                     data.append({"turn":turn,"side":side,"action":"attack","cid":cid,"xo":attacker_x,"yo":attacker_y,"x":defender_x,"y":defender_y})
-                    
+
                     strike = 0
-                    dies = False
-                    stats = {coord:{"dmg":0,"hits":0,"unit":unit.name,"position":position,"victory":False,"attack":attack,"hits_remaining":attack.hits} for unit,attack,coord,position in combatants}
+                    dies = False  
                     hit_known = False
 
                     
                     for result in results:
                         
                         
-                        unit,attack,coord,position = combatants[strike]
+                        current_coord = combatants[strike]
                         
                         if result["mp_checkup"]:
                             content = result["mp_checkup"].head
@@ -652,28 +707,18 @@ def parse_actions(bucket, player_list, flags):
 
                             dies = True if re.search(r"dies=(yes|no)",content).group(1)=="yes" else False
 
-                            if hits:
-                                stats[coord]["hits"] += 1
-                                stats[coord]["dmg"] += dmg
-#                             combat_info = {"cid":cid
-#                                            ,"uid":a.uid if position=="attacker" else d.uid
-#                                            ,"hits":hits
-#                                            ,"dmg":dmg
-#                                            ,"dies":dies
-#                                           }
-
-#                             combat_data.append(combat_info)
                                 
 
                             if dies:
-#                                     print(turn,attacker,defender,position)
-                                stats[coord]["victory"] = True
+                                
+                                stats[current_coord]["victory"] = True
                                 
 
-                                if position=="attacker":
+                                if stats[current_coord]["position"]=="attacker":
 
                                     if unit_list[defender_coord].race!="Undead" and attacker_attack.plague:
-                                        graveyard[defender_coord] = unit_list[attacker_coord].side
+                                        graveyard[defender_coord] = {"tombstone":unit_list[defender_coord],"killer":unit_list[attacker_coord].uid}
+                                        graveyard[defender_coord]["tombstone"].side = unit_list[attacker_coord].side
 
 
                                     del unit_list[defender_coord]
@@ -681,7 +726,8 @@ def parse_actions(bucket, player_list, flags):
                                 else:
 
                                     if unit_list[attacker_coord].race!="Undead" and defender_attack.plague:
-                                        graveyard[attacker_coord] = unit_list[defender_coord].side
+                                        graveyard[attacker_coord] = {"tombstone":unit_list[attacker_coord],"killer":unit_list[defender_coord].uid}
+                                        graveyard[attacker_coord]["tombstone"].side = unit_list[defender_coord].side
 
                                     del unit_list[attacker_coord]
 
@@ -691,12 +737,12 @@ def parse_actions(bucket, player_list, flags):
                             hit_known = False
 
 
-                            if all([s["hits_remaining"]==0 for s in stats.values()]) and any([s["attack"].berserk for s in stats.values()]): 
+                            if all([s["hits_remaining"]==0 for s in stats.values()]) and any([s["attack"].berserk for s in stats.values() if s["attack"]]): 
                                 for c in stats.keys():
-                                    stats[c]["hits_remaining"] = stats[c]["attack"].hits
+                                    stats[c]["hits_remaining"] = 0 if not stats[c]["attack"] else stats[c]["attack"].hits
                                     strike = 0
 
-                            elif stats[combatants[(strike+1)%len(combatants)][2]]["hits_remaining"]>0:
+                            elif len(combatants)>1 and stats[stats[current_coord]["opp_coord"]]["hits_remaining"]>0:
                                 strike = (strike+1)%len(combatants)
 
 
@@ -706,13 +752,18 @@ def parse_actions(bucket, player_list, flags):
                             dmg = int(re.search(r"damage=(\d+)",content).group(1))
                             hits = True if re.search(r"hits=(yes|no)",content).group(1)=="yes" else False
 
-                            stats[coord]["hits_remaining"]-=1
+                            stats[current_coord]["hits_remaining"]-=1
 
 
 
 
                             if hits:
-                                stats[coord]["dmg"] += dmg
+                                stats[current_coord]["hits"] += 1
+                                stats[current_coord]["dmg"] += dmg
+
+
+                                stats[stats[current_coord]["opp_coord"]]["hits_taken"] += 1
+                                stats[stats[current_coord]["opp_coord"]]["dmg_taken"] += dmg
 
                             hit_known = True
 
@@ -721,16 +772,43 @@ def parse_actions(bucket, player_list, flags):
                                 flags["attacks_exhausted"] = False
                                                       
                                           
-
                     combat_string = " | ".join([f'{s["unit"]} ({s["position"]}) did {s["dmg"]} dmg in {s["hits"]} hit{"s" if s["hits"]>1 else ""}' for s in stats.values()])    
                     
                     if dies:
 
-                        dead_unit = attacker if position=="defender" else defender
+                        dead_unit = attacker if stats[current_coord]["position"]=="defender" else defender
                         combat_string += f" | {dead_unit} died"
                     
                     
-                    data.append({"turn":turn,"side":side,"action":"attack","combat_string":combat_string,"xo":attacker_x,"yo":attacker_y,"x":defender_x,"y":defender_y})
+
+                    for k,v in stats.items():
+
+                        current_unit = a if v["position"]=="attacker" else d
+
+                        combat_data[(cid,current_unit.uid)] = {
+                            # "cid":cid
+                            "turn":turn
+                            ,"tod":tod
+                            # ,"uid": current_unit.uid
+                            ,"coord":k
+                            ,"leader": current_unit.leader
+                            ,"unit":v["unit"]
+                            ,"position":v["position"]
+                            ,"attack":v["attack"].name if v["attack"] else None
+                            ,"distance":v["distance"]
+                            ,"oid":v["oid"]
+                            ,"opponent":v["opponent"]
+                            ,"dmg":v["dmg"]
+                            ,"hits":v["hits"]
+                            ,"dmg_taken":v["dmg_taken"]
+                            ,"hits_taken":v["hits_taken"]
+                            ,"kills":v["victory"]
+                            ,"leveled":None
+                            ,"resurrected":None
+                        }
+
+
+                    data.append({"turn":turn,"side":side,"tod":tod,"distance":distance,"cid":cid,"action":"attack","combat_string":combat_string,"combat_ids":[a.uid,d.uid],"xo":attacker_x,"yo":attacker_y,"x":defender_x,"y":defender_y})
                     
                         
                     
@@ -745,7 +823,7 @@ def parse_actions(bucket, player_list, flags):
 #                     print("\n"*3)
                     
                     
-                    data.append({"turn":turn,"side":side,"action":"attack","combat_string":"PHANTOM","xo":attacker_x,"yo":attacker_y,"x":defender_x,"y":defender_y})
+                    # data.append({"turn":turn,"side":side,"action":"attack","combat_string":"PHANTOM","combat_ids":[],"xo":attacker_x,"yo":attacker_y,"x":defender_x,"y":defender_y})
                     
                     
              
@@ -754,7 +832,6 @@ def parse_actions(bucket, player_list, flags):
     
     
             else:
-                    
                 flags["attack_correct_locations"] = False
             
         else:
@@ -762,7 +839,9 @@ def parse_actions(bucket, player_list, flags):
     
 
     df = pd.DataFrame(data)
-#     cdf = pd.DataFrame(combat_data)
+
+    flat_data = [{'cid': key[0], 'uid': key[1], **value} for key, value in combat_data.items()]
+    cdf = pd.DataFrame(flat_data)
     
     
     
@@ -770,8 +849,8 @@ def parse_actions(bucket, player_list, flags):
         turns,flags = parse_turns(bucket, player_list, flags)
 #         print(turns.head())
 
-        if len(df[df.unit=="PHANTOM"])>1:
-            flags["only_one_phantom"] = False
+        # if len(df[df.unit=="PHANTOM"])>1:
+        #     flags["only_one_phantom"] = False
 
 
         if turns.turn.max() in (df.turn.max(),df.turn.max()+1):
@@ -781,7 +860,7 @@ def parse_actions(bucket, player_list, flags):
             
 
                     
-    return df, flags
+    return df, cdf, flags
 
 
 
@@ -792,7 +871,7 @@ def parse_actions(bucket, player_list, flags):
 
 
 
-def parse_data(content):
+def parse_replay(content):
     
 
     bucket = prep_replay(content)
@@ -818,12 +897,13 @@ def parse_data(content):
     
 
     turn_df, flags = parse_turns(bucket, player_list, flags)
-    action_df, flags = parse_actions(bucket, player_list, flags)
+    action_df, combat_df, flags = parse_actions(bucket, player_list, flags)
         
     
     data["flags"] = flags    
-    data["turns"] = turn_df.to_dict(orient='records')
-    data["actions"] = action_df.to_dict(orient='records')
+    data["turns"] = turn_df#.to_dict(orient='records')
+    data["actions"] = action_df#.to_dict(orient='records')
+    data["combats"] = combat_df#.to_dict(orient='records')
 
     
     return data

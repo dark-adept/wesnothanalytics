@@ -43,7 +43,7 @@ load_config("dictionary.json")
 
 def prep_replay(content):
     
-    bucket = Bucket(re.sub(r'\s*Ladder_[0-9]+(_[0-9]+)?',"",content.read().replace("\t","")).replace("Dark Sorceress","Dark Sorcerer"))
+    bucket = Bucket(re.sub(r'\s*Ladder_[0-9]+(_[0-9]+)?',"",content.replace("\t","")).replace("Dark Sorceress","Dark Sorcerer"))
 
     pattern = re.compile(r'^\d+\.\d+\.\d+$')
     assert bool(pattern.match(bucket.version))

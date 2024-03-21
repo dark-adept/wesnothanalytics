@@ -1,1 +1,1 @@
-from .main import parse_data
+from .main import parse_replay

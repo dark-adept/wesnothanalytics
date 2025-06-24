@@ -1,0 +1,5859 @@
+{
+    "Troll Whelp": {
+        "name": "Troll Whelp",
+        "evolution": [
+            "Troll",
+            "Troll Rocklobber"
+        ],
+        "cost": 13,
+        "faction": "Northerners",
+        "race": "Trolls",
+        "alignment": "chaotic",
+        "lvl": 1,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "fist",
+                "dmg": 7,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "da5217b96ba1"
+            }
+        ],
+        "unit_id": "d1dcfed5"
+    },
+    "Troll": {
+        "name": "Troll",
+        "evolution": [
+            "Troll Warrior"
+        ],
+        "cost": 29,
+        "faction": "Northerners",
+        "race": "Trolls",
+        "alignment": "chaotic",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "club",
+                "dmg": 14,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "bbc020e3cecf"
+            }
+        ],
+        "unit_id": "4454cf2b"
+    },
+    "Troll Warrior": {
+        "name": "Troll Warrior",
+        "cost": 42,
+        "faction": "Northerners",
+        "race": "Trolls",
+        "alignment": "chaotic",
+        "lvl": 3,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "hammer",
+                "dmg": 20,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "b52b300389d7"
+            }
+        ],
+        "unit_id": "603a9f09"
+    },
+    "Troll Rocklobber": {
+        "name": "Troll Rocklobber",
+        "cost": 29,
+        "faction": "Northerners",
+        "race": "Trolls",
+        "alignment": "chaotic",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "fist",
+                "dmg": 10,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "eebeb8f72a88"
+            },
+            {
+                "name": "sling",
+                "dmg": 17,
+                "hits": 1,
+                "attack_type": "impact",
+                "ranged": 1,
+                "attack_id": "1b318a97dffc"
+            }
+        ],
+        "unit_id": "ae7f5847"
+    },
+    "Vampire Bat": {
+        "name": "Vampire Bat",
+        "evolution": [
+            "Blood Bat"
+        ],
+        "cost": 13,
+        "faction": "Undead",
+        "race": "Bats",
+        "alignment": "chaotic",
+        "lvl": 0,
+        "role": "scout",
+        "attacks": [
+            {
+                "name": "fangs",
+                "dmg": 4,
+                "hits": 2,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "2b0838ec4819"
+            }
+        ],
+        "unit_id": "26f45cae"
+    },
+    "Blood Bat": {
+        "name": "Blood Bat",
+        "evolution": [
+            "Dread Bat"
+        ],
+        "cost": 21,
+        "faction": "Undead",
+        "race": "Bats",
+        "alignment": "chaotic",
+        "lvl": 1,
+        "role": "scout",
+        "attacks": [
+            {
+                "name": "fangs",
+                "dmg": 5,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "1e7a4bbe27c1"
+            }
+        ],
+        "unit_id": "937b9b04"
+    },
+    "Dread Bat": {
+        "name": "Dread Bat",
+        "cost": 34,
+        "faction": "Undead",
+        "race": "Bats",
+        "alignment": "chaotic",
+        "lvl": 2,
+        "role": "scout",
+        "attacks": [
+            {
+                "name": "fangs",
+                "dmg": 6,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "7da5529becbb"
+            }
+        ],
+        "unit_id": "9af4d308"
+    },
+    "Drake Burner": {
+        "name": "Drake Burner",
+        "evolution": [
+            "Drake Flare",
+            "Fire Drake"
+        ],
+        "cost": 21,
+        "faction": "Drakes",
+        "race": "Drakes",
+        "alignment": "lawful",
+        "lvl": 1,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "claws",
+                "dmg": 7,
+                "hits": 2,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "a077475f6aeb"
+            },
+            {
+                "name": "fire breath",
+                "dmg": 6,
+                "hits": 4,
+                "attack_type": "fire",
+                "ranged": 1,
+                "attack_id": "37e36ed3b47a"
+            }
+        ],
+        "unit_id": "9c1cb2c3"
+    },
+    "Drake Flare": {
+        "name": "Drake Flare",
+        "evolution": [
+            "Drake Flameheart"
+        ],
+        "cost": 35,
+        "faction": "Drakes",
+        "race": "Drakes",
+        "alignment": "lawful",
+        "lvl": 2,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "war blade",
+                "dmg": 8,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "5aeaba6b7b6c"
+            },
+            {
+                "name": "fire breath",
+                "dmg": 6,
+                "hits": 4,
+                "attack_type": "fire",
+                "ranged": 1,
+                "attack_id": "0f6b3a150f32"
+            }
+        ],
+        "unit_id": "2f722a95"
+    },
+    "Drake Flameheart": {
+        "name": "Drake Flameheart",
+        "cost": 51,
+        "faction": "Drakes",
+        "race": "Drakes",
+        "alignment": "lawful",
+        "lvl": 3,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "war blade",
+                "dmg": 11,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "6ff39252b139"
+            },
+            {
+                "name": "fire breath",
+                "dmg": 8,
+                "hits": 4,
+                "attack_type": "fire",
+                "ranged": 1,
+                "attack_id": "5461b5be856b"
+            }
+        ],
+        "unit_id": "9915d93b"
+    },
+    "Fire Drake": {
+        "name": "Fire Drake",
+        "evolution": [
+            "Inferno Drake"
+        ],
+        "cost": 35,
+        "faction": "Drakes",
+        "race": "Drakes",
+        "alignment": "lawful",
+        "lvl": 2,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "battle claws",
+                "dmg": 9,
+                "hits": 2,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "dd30539acb3c"
+            },
+            {
+                "name": "fire breath",
+                "dmg": 7,
+                "hits": 5,
+                "attack_type": "fire",
+                "ranged": 1,
+                "attack_id": "3304d44841ef"
+            }
+        ],
+        "unit_id": "23877769"
+    },
+    "Inferno Drake": {
+        "name": "Inferno Drake",
+        "cost": 51,
+        "faction": "Drakes",
+        "race": "Drakes",
+        "alignment": "lawful",
+        "lvl": 3,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "battle claws",
+                "dmg": 12,
+                "hits": 2,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "57d032655a4b"
+            },
+            {
+                "name": "fire breath",
+                "dmg": 8,
+                "hits": 6,
+                "attack_type": "fire",
+                "ranged": 1,
+                "attack_id": "54e2c16f3aba"
+            }
+        ],
+        "unit_id": "6270b9b8"
+    },
+    "Drake Clasher": {
+        "name": "Drake Clasher",
+        "evolution": [
+            "Drake Arbiter",
+            "Drake Thrasher"
+        ],
+        "cost": 19,
+        "faction": "Drakes",
+        "race": "Drakes",
+        "alignment": "lawful",
+        "lvl": 1,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "war talon",
+                "dmg": 5,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "367ffdba872c"
+            },
+            {
+                "name": "spear",
+                "dmg": 6,
+                "hits": 4,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "first_strike": 1,
+                "attack_id": "cc91b7f98f9d"
+            }
+        ],
+        "unit_id": "5df980cd"
+    },
+    "Drake Thrasher": {
+        "name": "Drake Thrasher",
+        "evolution": [
+            "Drake Enforcer"
+        ],
+        "cost": 31,
+        "faction": "Drakes",
+        "race": "Drakes",
+        "alignment": "lawful",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "war talon",
+                "dmg": 8,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "a5e0d56179f9"
+            },
+            {
+                "name": "spear",
+                "dmg": 6,
+                "hits": 5,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "attack_id": "9f871a1d1265"
+            },
+            {
+                "name": "ram",
+                "dmg": 10,
+                "hits": 3,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "7e8c179d4fad"
+            }
+        ],
+        "unit_id": "cd8a1612"
+    },
+    "Drake Enforcer": {
+        "name": "Drake Enforcer",
+        "cost": 40,
+        "faction": "Drakes",
+        "race": "Drakes",
+        "alignment": "lawful",
+        "lvl": 3,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "war talon",
+                "dmg": 11,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "96a1da87c2cc"
+            },
+            {
+                "name": "ram",
+                "dmg": 14,
+                "hits": 3,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "b5ee9eac7a39"
+            },
+            {
+                "name": "trident",
+                "dmg": 8,
+                "hits": 5,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "attack_id": "801201e0a71f"
+            }
+        ],
+        "unit_id": "cd708636"
+    },
+    "Drake Arbiter": {
+        "name": "Drake Arbiter",
+        "evolution": [
+            "Drake Warden"
+        ],
+        "cost": 31,
+        "faction": "Drakes",
+        "race": "Drakes",
+        "alignment": "lawful",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "halberd",
+                "dmg": 11,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "18730d7ad901"
+            },
+            {
+                "name": "halberd",
+                "dmg": 17,
+                "hits": 2,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "first_strike": 1,
+                "attack_id": "d7704297fc46"
+            }
+        ],
+        "unit_id": "b2fcf218"
+    },
+    "Drake Warden": {
+        "name": "Drake Warden",
+        "predecessor": [
+            "Drake Arbiter"
+        ],
+        "cost": 46,
+        "faction": "Drakes",
+        "race": "Drakes",
+        "alignment": "lawful",
+        "lvl": 3,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "halberd",
+                "dmg": 16,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "efbd9c1d38ee"
+            },
+            {
+                "name": "halberd",
+                "dmg": 23,
+                "hits": 2,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "first_strike": 1,
+                "attack_id": "4a7ac6342e4f"
+            }
+        ],
+        "unit_id": "ecf9a6b0"
+    },
+    "Drake Fighter": {
+        "name": "Drake Fighter",
+        "evolution": [
+            "Drake Warrior"
+        ],
+        "cost": 17,
+        "faction": "Drakes",
+        "race": "Drakes",
+        "alignment": "lawful",
+        "lvl": 1,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "war blade",
+                "dmg": 7,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "da744fe86e5e"
+            },
+            {
+                "name": "fire breath",
+                "dmg": 3,
+                "hits": 3,
+                "attack_type": "fire",
+                "ranged": 1,
+                "attack_id": "32aa30016b93"
+            }
+        ],
+        "unit_id": "3454686b"
+    },
+    "Drake Warrior": {
+        "name": "Drake Warrior",
+        "evolution": [
+            "Drake Blademaster"
+        ],
+        "cost": 30,
+        "faction": "Drakes",
+        "race": "Drakes",
+        "alignment": "lawful",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "war blade",
+                "dmg": 11,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "75215cbaf4eb"
+            },
+            {
+                "name": "fire breath",
+                "dmg": 5,
+                "hits": 3,
+                "attack_type": "fire",
+                "ranged": 1,
+                "attack_id": "c4aaf58e6edd"
+            }
+        ],
+        "unit_id": "b7b76504"
+    },
+    "Drake Blademaster": {
+        "name": "Drake Blademaster",
+        "cost": 47,
+        "faction": "Drakes",
+        "race": "Drakes",
+        "alignment": "lawful",
+        "lvl": 3,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "war talon",
+                "dmg": 16,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "164d17cba2fc"
+            },
+            {
+                "name": "fire breath",
+                "dmg": 8,
+                "hits": 3,
+                "attack_type": "fire",
+                "ranged": 1,
+                "attack_id": "c120f08b7a66"
+            }
+        ],
+        "unit_id": "fe653938"
+    },
+    "Drake Glider": {
+        "name": "Drake Glider",
+        "evolution": [
+            "Sky Drake"
+        ],
+        "cost": 16,
+        "faction": "Drakes",
+        "race": "Drakes",
+        "alignment": "lawful",
+        "lvl": 1,
+        "role": "scout",
+        "attacks": [
+            {
+                "name": "slam",
+                "dmg": 6,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "653e1cb1fe3f"
+            },
+            {
+                "name": "fire breath",
+                "dmg": 3,
+                "hits": 3,
+                "attack_type": "fire",
+                "ranged": 1,
+                "attack_id": "0eaf9a496e1d"
+            }
+        ],
+        "unit_id": "898ea604"
+    },
+    "Sky Drake": {
+        "name": "Sky Drake",
+        "evolution": [
+            "Hurricane Drake"
+        ],
+        "cost": 30,
+        "faction": "Drakes",
+        "race": "Drakes",
+        "alignment": "lawful",
+        "lvl": 2,
+        "role": "scout",
+        "attacks": [
+            {
+                "name": "slam",
+                "dmg": 6,
+                "hits": 3,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "288800ab673e"
+            },
+            {
+                "name": "fire breath",
+                "dmg": 5,
+                "hits": 3,
+                "attack_type": "fire",
+                "ranged": 1,
+                "attack_id": "5d8a19b0fa41"
+            }
+        ],
+        "unit_id": "f67ff630"
+    },
+    "Hurricane Drake": {
+        "name": "Hurricane Drake",
+        "cost": 40,
+        "faction": "Drakes",
+        "race": "Drakes",
+        "alignment": "lawful",
+        "lvl": 3,
+        "role": "scout",
+        "attacks": [
+            {
+                "name": "slam",
+                "dmg": 8,
+                "hits": 3,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "b56d61556207"
+            },
+            {
+                "name": "fire breath",
+                "dmg": 8,
+                "hits": 3,
+                "attack_type": "fire",
+                "ranged": 1,
+                "attack_id": "119109e99bd5"
+            }
+        ],
+        "unit_id": "11177017"
+    },
+    "Dwarvish Fighter": {
+        "name": "Dwarvish Fighter",
+        "evolution": [
+            "Dwarvish Steelclad"
+        ],
+        "cost": 16,
+        "faction": "Knalgan Alliance",
+        "race": "Dwarves",
+        "alignment": "neutral",
+        "lvl": 1,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "axe",
+                "dmg": 7,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "49815eb49027"
+            },
+            {
+                "name": "hammer",
+                "dmg": 8,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "ee8f45ddcf07"
+            }
+        ],
+        "unit_id": "c525628c"
+    },
+    "Dwarvish Steelclad": {
+        "name": "Dwarvish Steelclad",
+        "evolution": [
+            "Dwarvish Lord"
+        ],
+        "cost": 32,
+        "faction": "Knalgan Alliance",
+        "race": "Dwarves",
+        "alignment": "neutral",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "battle axe",
+                "dmg": 11,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "9567a836cc16"
+            },
+            {
+                "name": "hammer",
+                "dmg": 14,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "3b82d4cf3825"
+            }
+        ],
+        "unit_id": "1d66a152"
+    },
+    "Dwarvish Lord": {
+        "name": "Dwarvish Lord",
+        "cost": 54,
+        "faction": "Knalgan Alliance",
+        "race": "Dwarves",
+        "alignment": "neutral",
+        "lvl": 3,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "battle axe",
+                "dmg": 15,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "000d8c5aee83"
+            },
+            {
+                "name": "hammer",
+                "dmg": 19,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "29c58acd6d11"
+            },
+            {
+                "name": "hatchet",
+                "dmg": 10,
+                "hits": 1,
+                "attack_type": "blade",
+                "ranged": 1,
+                "attack_id": "52c33108cb43"
+            }
+        ],
+        "unit_id": "fd40aa6e"
+    },
+    "Dwarvish Scout": {
+        "name": "Dwarvish Scout",
+        "evolution": [
+            "Dwarvish Pathfinder"
+        ],
+        "cost": 18,
+        "faction": "Knalgan Alliance",
+        "race": "Dwarves",
+        "alignment": "neutral",
+        "lvl": 1,
+        "role": "scout",
+        "attacks": [
+            {
+                "name": "axe",
+                "dmg": 6,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "6f881cf7f578"
+            },
+            {
+                "name": "axe",
+                "dmg": 8,
+                "hits": 2,
+                "attack_type": "blade",
+                "ranged": 1,
+                "attack_id": "bcee5ed14a30"
+            }
+        ],
+        "unit_id": "f4e15c6d"
+    },
+    "Dwarvish Pathfinder": {
+        "name": "Dwarvish Pathfinder",
+        "evolution": [
+            "Dwarvish Explorer"
+        ],
+        "cost": 30,
+        "faction": "Knalgan Alliance",
+        "race": "Dwarves",
+        "alignment": "neutral",
+        "lvl": 2,
+        "role": "scout",
+        "attacks": [
+            {
+                "name": "axe",
+                "dmg": 8,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "c43d7b77160d"
+            },
+            {
+                "name": "axe",
+                "dmg": 8,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 1,
+                "attack_id": "3e69157a938b"
+            }
+        ],
+        "unit_id": "7ce4edf5"
+    },
+    "Dwarvish Explorer": {
+        "name": "Dwarvish Explorer",
+        "cost": 45,
+        "faction": "Knalgan Alliance",
+        "race": "Dwarves",
+        "alignment": "neutral",
+        "lvl": 3,
+        "role": "scout",
+        "attacks": [
+            {
+                "name": "axe",
+                "dmg": 10,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "83ad5317fffe"
+            },
+            {
+                "name": "axe",
+                "dmg": 11,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 1,
+                "attack_id": "0bdd9f35b46e"
+            }
+        ],
+        "unit_id": "9b9f2c75"
+    },
+    "Dwarvish Guardsman": {
+        "name": "Dwarvish Guardsman",
+        "evolution": [
+            "Dwarvish Stalwart"
+        ],
+        "cost": 19,
+        "faction": "Knalgan Alliance",
+        "race": "Dwarves",
+        "alignment": "neutral",
+        "lvl": 1,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "spear",
+                "dmg": 5,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "attack_id": "2d5fb7a07d0e"
+            },
+            {
+                "name": "javelin",
+                "dmg": 5,
+                "hits": 1,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "6e09a5b3c1e4"
+            }
+        ],
+        "unit_id": "8801d67a"
+    },
+    "Dwarvish Stalwart": {
+        "name": "Dwarvish Stalwart",
+        "evolution": [
+            "Dwarvish Sentinel"
+        ],
+        "cost": 32,
+        "faction": "Knalgan Alliance",
+        "race": "Dwarves",
+        "alignment": "neutral",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "spear",
+                "dmg": 7,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "attack_id": "9c548dad02ea"
+            },
+            {
+                "name": "javelin",
+                "dmg": 8,
+                "hits": 1,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "b2401a764848"
+            }
+        ],
+        "unit_id": "032c8a8b"
+    },
+    "Dwarvish Sentinel": {
+        "name": "Dwarvish Sentinel",
+        "cost": 41,
+        "faction": "Knalgan Alliance",
+        "race": "Dwarves",
+        "alignment": "neutral",
+        "lvl": 3,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "spear",
+                "dmg": 9,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "attack_id": "4fdd33293f58"
+            },
+            {
+                "name": "javelin",
+                "dmg": 11,
+                "hits": 2,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "06977d4e6147"
+            }
+        ],
+        "unit_id": "3cfbf782"
+    },
+    "Dwarvish Thunderer": {
+        "name": "Dwarvish Thunderer",
+        "evolution": [
+            "Dwarvish Thunderguard"
+        ],
+        "cost": 17,
+        "faction": "Knalgan Alliance",
+        "race": "Dwarves",
+        "alignment": "neutral",
+        "lvl": 1,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "dagger",
+                "dmg": 6,
+                "hits": 2,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "cf845631c134"
+            },
+            {
+                "name": "thunderstick",
+                "dmg": 18,
+                "hits": 1,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "fdcf2c6651ee"
+            },
+            {
+                "name": "thunderstick_TEST",
+                "dmg": 9,
+                "hits": 2,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "e8b74803c21c"
+            }
+        ],
+        "unit_id": "285afaa5"
+    },
+    "Dwarvish Thunderguard": {
+        "name": "Dwarvish Thunderguard",
+        "evolution": [
+            "Dwarvish Dragonguard"
+        ],
+        "cost": 30,
+        "faction": "Knalgan Alliance",
+        "race": "Dwarves",
+        "alignment": "neutral",
+        "lvl": 2,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "dagger",
+                "dmg": 6,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "2eaa0f2c44d7"
+            },
+            {
+                "name": "thunderstick",
+                "dmg": 28,
+                "hits": 1,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "5ce7b54a2491"
+            },
+            {
+                "name": "thunderstick_TEST",
+                "dmg": 14,
+                "hits": 2,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "63a41d0ab7f4"
+            }
+        ],
+        "unit_id": "09e12d1c"
+    },
+    "Dwarvish Dragonguard": {
+        "name": "Dwarvish Dragonguard",
+        "cost": 46,
+        "faction": "Knalgan Alliance",
+        "race": "Dwarves",
+        "alignment": "neutral",
+        "lvl": 3,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "dagger",
+                "dmg": 9,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "44b3bf8dc86e"
+            },
+            {
+                "name": "dragonstaff",
+                "dmg": 40,
+                "hits": 1,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "c226ee2ff6b7"
+            },
+            {
+                "name": "thunderstick_TEST",
+                "dmg": 20,
+                "hits": 2,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "fcbf3f89a198"
+            }
+        ],
+        "unit_id": "757ef836"
+    },
+    "Dwarvish Ulfserker": {
+        "name": "Dwarvish Ulfserker",
+        "evolution": [
+            "Dwarvish Berserker"
+        ],
+        "cost": 19,
+        "faction": "Knalgan Alliance",
+        "race": "Dwarves",
+        "alignment": "neutral",
+        "lvl": 1,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "berserker frenzy",
+                "dmg": 4,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "berserk": 1,
+                "attack_id": "8645fc12b241"
+            }
+        ],
+        "unit_id": "62a0a42c"
+    },
+    "Dwarvish Berserker": {
+        "name": "Dwarvish Berserker",
+        "cost": 19,
+        "faction": "Knalgan Alliance",
+        "race": "Dwarves",
+        "alignment": "neutral",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "berserker frenzy",
+                "dmg": 7,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "berserk": 1,
+                "attack_id": "06bc3f409250"
+            }
+        ],
+        "unit_id": "2b775159"
+    },
+    "Elvish Archer": {
+        "name": "Elvish Archer",
+        "evolution": [
+            "Elvish Marksman",
+            "Elvish Ranger"
+        ],
+        "cost": 19,
+        "faction": "Rebels",
+        "race": "Elves",
+        "alignment": "neutral",
+        "lvl": 1,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "sword",
+                "dmg": 5,
+                "hits": 2,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "6a1f8c0efc8b"
+            },
+            {
+                "name": "bow",
+                "dmg": 5,
+                "hits": 4,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "643f9bc7cfde"
+            }
+        ],
+        "unit_id": "af700a3e"
+    },
+    "Elvish Ranger": {
+        "name": "Elvish Ranger",
+        "evolution": [
+            "Elvish Avenger"
+        ],
+        "cost": 41,
+        "faction": "Rebels",
+        "race": "Elves",
+        "alignment": "neutral",
+        "lvl": 2,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "sword",
+                "dmg": 7,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "e65261cc58f4"
+            },
+            {
+                "name": "bow",
+                "dmg": 7,
+                "hits": 4,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "3882e70a4c6d"
+            }
+        ],
+        "unit_id": "1a781ef4"
+    },
+    "Elvish Avenger": {
+        "name": "Elvish Avenger",
+        "cost": 60,
+        "faction": "Rebels",
+        "race": "Elves",
+        "alignment": "neutral",
+        "lvl": 3,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "sword",
+                "dmg": 8,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "fb89f694655e"
+            },
+            {
+                "name": "bow",
+                "dmg": 10,
+                "hits": 4,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "215d55286522"
+            }
+        ],
+        "unit_id": "a48aab50"
+    },
+    "Elvish Marksman": {
+        "name": "Elvish Marksman",
+        "evolution": [
+            "Elvish Sharpshooter"
+        ],
+        "cost": 41,
+        "faction": "Rebels",
+        "race": "Elves",
+        "alignment": "neutral",
+        "lvl": 2,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "sword",
+                "dmg": 6,
+                "hits": 2,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "86e98729f31b"
+            },
+            {
+                "name": "longbow",
+                "dmg": 9,
+                "hits": 4,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "5996cc9b2e93"
+            }
+        ],
+        "unit_id": "357b647b"
+    },
+    "Elvish Sharpshooter": {
+        "name": "Elvish Sharpshooter",
+        "cost": 55,
+        "faction": "Rebels",
+        "race": "Elves",
+        "alignment": "neutral",
+        "lvl": 3,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "sword",
+                "dmg": 7,
+                "hits": 2,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "2818d3b3f79b"
+            },
+            {
+                "name": "longbow",
+                "dmg": 10,
+                "hits": 5,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "3ae2f92cfdd7"
+            }
+        ],
+        "unit_id": "9c3fa8c6"
+    },
+    "Elvish Fighter": {
+        "name": "Elvish Fighter",
+        "evolution": [
+            "Elvish Captain",
+            "Elvish Hero"
+        ],
+        "cost": 14,
+        "faction": "Rebels",
+        "race": "Elves",
+        "alignment": "neutral",
+        "lvl": 1,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "sword",
+                "dmg": 5,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "c42258f9ccfa"
+            },
+            {
+                "name": "bow",
+                "dmg": 3,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "381e601f128c"
+            }
+        ],
+        "unit_id": "0a02e3c8"
+    },
+    "Elvish Captain": {
+        "name": "Elvish Captain",
+        "evolution": [
+            "Elvish Marshal"
+        ],
+        "cost": 32,
+        "faction": "Rebels",
+        "race": "Elves",
+        "alignment": "neutral",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "sword",
+                "dmg": 7,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "a266e9a10200"
+            },
+            {
+                "name": "bow",
+                "dmg": 5,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "4a8c7aead8a2"
+            }
+        ],
+        "unit_id": "81ff23a4"
+    },
+    "Elvish Marshal": {
+        "name": "Elvish Marshal",
+        "cost": 55,
+        "faction": "Rebels",
+        "race": "Elves",
+        "alignment": "neutral",
+        "lvl": 3,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "sword",
+                "dmg": 10,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "90ac74cd405e"
+            },
+            {
+                "name": "bow",
+                "dmg": 8,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "6655dccbccd9"
+            }
+        ],
+        "unit_id": "59d5fd38"
+    },
+    "Elvish Hero": {
+        "name": "Elvish Hero",
+        "evolution": [
+            "Elvish Champion"
+        ],
+        "cost": 32,
+        "faction": "Rebels",
+        "race": "Elves",
+        "alignment": "neutral",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "sword",
+                "dmg": 8,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "99998ca3cd43"
+            },
+            {
+                "name": "bow",
+                "dmg": 6,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "a2f29a1c7835"
+            }
+        ],
+        "unit_id": "b2c565af"
+    },
+    "Elvish Champion": {
+        "name": "Elvish Champion",
+        "cost": 55,
+        "faction": "Rebels",
+        "race": "Elves",
+        "alignment": "neutral",
+        "lvl": 3,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "sword",
+                "dmg": 9,
+                "hits": 5,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "1ac05b146a22"
+            },
+            {
+                "name": "bow",
+                "dmg": 9,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "a8917ab68c4b"
+            }
+        ],
+        "unit_id": "ab895e69"
+    },
+    "Elvish Scout": {
+        "name": "Elvish Scout",
+        "evolution": [
+            "Elvish Rider"
+        ],
+        "cost": 18,
+        "faction": "Rebels",
+        "race": "Elves",
+        "alignment": "neutral",
+        "lvl": 1,
+        "role": "scout",
+        "attacks": [
+            {
+                "name": "sword",
+                "dmg": 4,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "2d4c8ccc7f01"
+            },
+            {
+                "name": "bow",
+                "dmg": 6,
+                "hits": 2,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "44059dcdb51c"
+            }
+        ],
+        "unit_id": "784efd69"
+    },
+    "Elvish Rider": {
+        "name": "Elvish Rider",
+        "evolution": [
+            "Elvish Outrider"
+        ],
+        "cost": 31,
+        "faction": "Rebels",
+        "race": "Elves",
+        "alignment": "neutral",
+        "lvl": 2,
+        "role": "scout",
+        "attacks": [
+            {
+                "name": "sword",
+                "dmg": 7,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "e64005365409"
+            },
+            {
+                "name": "bow",
+                "dmg": 9,
+                "hits": 2,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "90f185d3de9c"
+            }
+        ],
+        "unit_id": "9e6bc7e7"
+    },
+    "Elvish Outrider": {
+        "name": "Elvish Outrider",
+        "cost": 43,
+        "faction": "Rebels",
+        "race": "Elves",
+        "alignment": "neutral",
+        "lvl": 3,
+        "role": "scout",
+        "attacks": [
+            {
+                "name": "sword",
+                "dmg": 7,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "75bf3109b01a"
+            },
+            {
+                "name": "bow",
+                "dmg": 8,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "8e9c05740bcf"
+            }
+        ],
+        "unit_id": "e8f0f76c"
+    },
+    "Elvish Shaman": {
+        "name": "Elvish Shaman",
+        "evolution": [
+            "Elvish Druid",
+            "Elvish Sorceress"
+        ],
+        "cost": 15,
+        "faction": "Rebels",
+        "race": "Elves",
+        "alignment": "neutral",
+        "lvl": 1,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "staff",
+                "dmg": 3,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "aea2e1fe1c27"
+            },
+            {
+                "name": "entangle",
+                "dmg": 3,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 1,
+                "attack_id": "0446cf0d5ac8"
+            }
+        ],
+        "unit_id": "f03dcd2d"
+    },
+    "Elvish Druid": {
+        "name": "Elvish Druid",
+        "evolution": [
+            "Elvish Shyde"
+        ],
+        "cost": 34,
+        "faction": "Rebels",
+        "race": "Elves",
+        "alignment": "neutral",
+        "lvl": 2,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "staff",
+                "dmg": 4,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "1a275296c090"
+            },
+            {
+                "name": "ensnare",
+                "dmg": 6,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 1,
+                "attack_id": "1388bd9b2144"
+            },
+            {
+                "name": "thorns",
+                "dmg": 6,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "6d8132fbb56c"
+            }
+        ],
+        "unit_id": "918f1116"
+    },
+    "Elvish Shyde": {
+        "name": "Elvish Shyde",
+        "cost": 52,
+        "faction": "Rebels",
+        "race": "Elves",
+        "alignment": "neutral",
+        "lvl": 3,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "faerie touch",
+                "dmg": 6,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "6c1232092429"
+            },
+            {
+                "name": "ensnare",
+                "dmg": 6,
+                "hits": 3,
+                "attack_type": "impact",
+                "ranged": 1,
+                "attack_id": "4c42bd565ac0"
+            },
+            {
+                "name": "thorns",
+                "dmg": 8,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "3638c2d202cd"
+            }
+        ],
+        "unit_id": "9228bda1"
+    },
+    "Elvish Sorceress": {
+        "name": "Elvish Sorceress",
+        "evolution": [
+            "Elvish Enchantress"
+        ],
+        "cost": 34,
+        "faction": "Rebels",
+        "race": "Elves",
+        "alignment": "neutral",
+        "lvl": 2,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "staff",
+                "dmg": 4,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "79f52f3437b5"
+            },
+            {
+                "name": "entangle",
+                "dmg": 4,
+                "hits": 3,
+                "attack_type": "impact",
+                "ranged": 1,
+                "attack_id": "78211da08499"
+            },
+            {
+                "name": "faerie fire",
+                "dmg": 7,
+                "hits": 4,
+                "attack_type": "arcane",
+                "ranged": 1,
+                "attack_id": "929265b95757"
+            }
+        ],
+        "unit_id": "17b79991"
+    },
+    "Elvish Enchantress": {
+        "name": "Elvish Enchantress",
+        "cost": 55,
+        "faction": "Rebels",
+        "race": "Elves",
+        "alignment": "neutral",
+        "lvl": 3,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "staff",
+                "dmg": 6,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "336b23b84ee0"
+            },
+            {
+                "name": "entangle",
+                "dmg": 5,
+                "hits": 4,
+                "attack_type": "impact",
+                "ranged": 1,
+                "attack_id": "cc29d386c1b8"
+            },
+            {
+                "name": "faerie fire",
+                "dmg": 9,
+                "hits": 4,
+                "attack_type": "arcane",
+                "ranged": 1,
+                "attack_id": "5dca623ac74f"
+            }
+        ],
+        "unit_id": "911318b6"
+    },
+    "Goblin Spearman": {
+        "name": "Goblin Spearman",
+        "evolution": [
+            "Goblin Impaler",
+            "Goblin Rouser"
+        ],
+        "cost": 9,
+        "faction": "Northerners",
+        "race": "Goblins",
+        "alignment": "chaotic",
+        "lvl": 0,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "spear",
+                "dmg": 6,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "attack_id": "a0da31e7644a"
+            },
+            {
+                "name": "spear",
+                "dmg": 3,
+                "hits": 1,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "4dbe0d9ca178"
+            }
+        ],
+        "unit_id": "a26e1af3"
+    },
+    "Goblin Impaler": {
+        "name": "Goblin Impaler",
+        "cost": 13,
+        "faction": "Northerners",
+        "race": "Goblins",
+        "alignment": "chaotic",
+        "lvl": 1,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "spear",
+                "dmg": 8,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "first_strike": 1,
+                "attack_id": "ddbb9f7dabb7"
+            },
+            {
+                "name": "spear",
+                "dmg": 5,
+                "hits": 1,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "3536856dd36c"
+            }
+        ],
+        "unit_id": "fc0f94cd"
+    },
+    "Goblin Rouser": {
+        "name": "Goblin Rouser",
+        "cost": 13,
+        "faction": "Northerners",
+        "race": "Goblins",
+        "alignment": "chaotic",
+        "lvl": 1,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "spear",
+                "dmg": 7,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "attack_id": "c54258d7083b"
+            }
+        ],
+        "unit_id": "20ad1cd1"
+    },
+    "Gryphon Rider": {
+        "name": "Gryphon Rider",
+        "evolution": [
+            "Gryphon Master"
+        ],
+        "cost": 24,
+        "faction": "Knalgan Alliance",
+        "race": "Gryphons",
+        "alignment": "neutral",
+        "lvl": 1,
+        "role": "scout",
+        "attacks": [
+            {
+                "name": "claws",
+                "dmg": 12,
+                "hits": 2,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "e45c69361dce"
+            }
+        ],
+        "unit_id": "d9c68a72"
+    },
+    "Gryphon Master": {
+        "name": "Gryphon Master",
+        "cost": 37,
+        "faction": "Knalgan Alliance",
+        "race": "Gryphons",
+        "alignment": "neutral",
+        "lvl": 2,
+        "role": "scout",
+        "attacks": [
+            {
+                "name": "claws",
+                "dmg": 15,
+                "hits": 2,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "c162880f10dd"
+            }
+        ],
+        "unit_id": "a0f55c4b"
+    },
+    "Cavalryman": {
+        "name": "Cavalryman",
+        "evolution": [
+            "Dragoon"
+        ],
+        "cost": 17,
+        "faction": "Loyalists",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 1,
+        "role": "scout",
+        "attacks": [
+            {
+                "name": "sword",
+                "dmg": 6,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "8affe714b0b2"
+            }
+        ],
+        "unit_id": "449ef8f9"
+    },
+    "Dragoon": {
+        "name": "Dragoon",
+        "evolution": [
+            "Cavalier"
+        ],
+        "cost": 34,
+        "faction": "Loyalists",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 2,
+        "role": "scout",
+        "attacks": [
+            {
+                "name": "sword",
+                "dmg": 6,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "cfa872ebbdd0"
+            },
+            {
+                "name": "crossbow",
+                "dmg": 12,
+                "hits": 1,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "17390710829d"
+            }
+        ],
+        "unit_id": "b9e698cc"
+    },
+    "Cavalier": {
+        "name": "Cavalier",
+        "cost": 52,
+        "faction": "Loyalists",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 3,
+        "role": "scout",
+        "attacks": [
+            {
+                "name": "longsword",
+                "dmg": 10,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "1d24a601c513"
+            },
+            {
+                "name": "crossbow",
+                "dmg": 20,
+                "hits": 1,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "065a3657d905"
+            }
+        ],
+        "unit_id": "024361d1"
+    },
+    "Dark Adept": {
+        "name": "Dark Adept",
+        "evolution": [
+            "Dark Sorcerer"
+        ],
+        "cost": 16,
+        "faction": "Undead",
+        "race": "Humans",
+        "alignment": "chaotic",
+        "lvl": 1,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "chill wave",
+                "dmg": 10,
+                "hits": 2,
+                "attack_type": "cold",
+                "ranged": 1,
+                "attack_id": "5b5ce4f786ba"
+            },
+            {
+                "name": "shadow wave",
+                "dmg": 7,
+                "hits": 2,
+                "attack_type": "arcane",
+                "ranged": 1,
+                "attack_id": "bdf1bd8ce018"
+            }
+        ],
+        "unit_id": "4d19ff9d"
+    },
+    "Dark Sorcerer": {
+        "name": "Dark Sorcerer",
+        "evolution": [
+            "Lich",
+            "Necromancer"
+        ],
+        "cost": 32,
+        "faction": "Undead",
+        "race": "Humans",
+        "alignment": "chaotic",
+        "lvl": 2,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "staff",
+                "dmg": 4,
+                "hits": 3,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "132fe17fdc8f"
+            },
+            {
+                "name": "chill wave",
+                "dmg": 13,
+                "hits": 2,
+                "attack_type": "cold",
+                "ranged": 1,
+                "attack_id": "4c6795f51f88"
+            },
+            {
+                "name": "shadow wave",
+                "dmg": 9,
+                "hits": 2,
+                "attack_type": "arcane",
+                "ranged": 1,
+                "attack_id": "52dc2ca5ed1a"
+            }
+        ],
+        "unit_id": "1e583882"
+    },
+    "Lich": {
+        "name": "Lich",
+        "cost": 50,
+        "faction": "Undead",
+        "race": "Undead",
+        "alignment": "chaotic",
+        "lvl": 3,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "touch",
+                "dmg": 8,
+                "hits": 3,
+                "attack_type": "arcane",
+                "ranged": 0,
+                "attack_id": "d995be31b435"
+            },
+            {
+                "name": "chill wave",
+                "dmg": 12,
+                "hits": 3,
+                "attack_type": "cold",
+                "ranged": 1,
+                "attack_id": "b63c32c6429f"
+            },
+            {
+                "name": "shadow wave",
+                "dmg": 9,
+                "hits": 3,
+                "attack_type": "arcane",
+                "ranged": 1,
+                "attack_id": "4c45f4173e36"
+            }
+        ],
+        "unit_id": "703d210f"
+    },
+    "Necromancer": {
+        "name": "Necromancer",
+        "cost": 50,
+        "faction": "Undead",
+        "race": "Humans",
+        "alignment": "chaotic",
+        "lvl": 3,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "staff",
+                "dmg": 6,
+                "hits": 3,
+                "attack_type": "impact",
+                "ranged": 0,
+                "plague": 1,
+                "attack_id": "8b424b3a8849"
+            },
+            {
+                "name": "chill wave",
+                "dmg": 17,
+                "hits": 2,
+                "attack_type": "cold",
+                "ranged": 1,
+                "attack_id": "80b08611098a"
+            },
+            {
+                "name": "shadow wave",
+                "dmg": 12,
+                "hits": 2,
+                "attack_type": "arcane",
+                "ranged": 1,
+                "attack_id": "23ea9242cac6"
+            }
+        ],
+        "unit_id": "6095180b"
+    },
+    "Fencer": {
+        "name": "Fencer",
+        "evolution": [
+            "Duelist"
+        ],
+        "cost": 16,
+        "faction": "Loyalists",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 1,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "saber",
+                "dmg": 4,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "39de2d3c9310"
+            }
+        ],
+        "unit_id": "ad5953a2"
+    },
+    "Duelist": {
+        "name": "Duelist",
+        "evolution": [
+            "Master at Arms"
+        ],
+        "cost": 32,
+        "faction": "Loyalists",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "saber",
+                "dmg": 5,
+                "hits": 5,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "967c2db53b2b"
+            },
+            {
+                "name": "crossbow",
+                "dmg": 12,
+                "hits": 1,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "8549e008d180"
+            }
+        ],
+        "unit_id": "d8e4a74b"
+    },
+    "Master at Arms": {
+        "name": "Master at Arms",
+        "cost": 44,
+        "faction": "Loyalists",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 3,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "saber",
+                "dmg": 7,
+                "hits": 5,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "a0ffe91e930d"
+            },
+            {
+                "name": "crossbow",
+                "dmg": 20,
+                "hits": 1,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "ef15e8ff0370"
+            }
+        ],
+        "unit_id": "c6c5f19e"
+    },
+    "Heavy Infantryman": {
+        "name": "Heavy Infantryman",
+        "evolution": [
+            "Shock Trooper"
+        ],
+        "cost": 19,
+        "faction": "Loyalists",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 1,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "mace",
+                "dmg": 11,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "b7e18244a187"
+            }
+        ],
+        "unit_id": "aa50eae6"
+    },
+    "Shock Trooper": {
+        "name": "Shock Trooper",
+        "evolution": [
+            "Iron Mauler"
+        ],
+        "cost": 35,
+        "faction": "Loyalists",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "flail",
+                "dmg": 18,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "57e3594ebe17"
+            }
+        ],
+        "unit_id": "c838cc24"
+    },
+    "Iron Mauler": {
+        "name": "Iron Mauler",
+        "cost": 50,
+        "faction": "Loyalists",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 3,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "mace",
+                "dmg": 25,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "8a59f93e6106"
+            }
+        ],
+        "unit_id": "a627ce58"
+    },
+    "Horseman": {
+        "name": "Horseman",
+        "evolution": [
+            "Knight",
+            "Lancer"
+        ],
+        "cost": 23,
+        "faction": "Loyalists",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 1,
+        "role": "scout",
+        "attacks": [
+            {
+                "name": "spear",
+                "dmg": 9,
+                "hits": 2,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "attack_id": "dcfb15f00477"
+            }
+        ],
+        "unit_id": "d07c2de8"
+    },
+    "Lancer": {
+        "name": "Lancer",
+        "cost": 40,
+        "faction": "Loyalists",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 2,
+        "role": "scout",
+        "attacks": [
+            {
+                "name": "lance",
+                "dmg": 12,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "attack_id": "0041a92a6935"
+            }
+        ],
+        "unit_id": "a9a4e2e1"
+    },
+    "Knight": {
+        "name": "Knight",
+        "evolution": [
+            "Grand Knight",
+            "Paladin"
+        ],
+        "cost": 40,
+        "faction": "Loyalists",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 2,
+        "role": "scout",
+        "attacks": [
+            {
+                "name": "sword",
+                "dmg": 8,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "33f5d1a871bf"
+            },
+            {
+                "name": "lance",
+                "dmg": 14,
+                "hits": 2,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "attack_id": "ca08d898bfc7"
+            }
+        ],
+        "unit_id": "d5b2197c"
+    },
+    "Paladin": {
+        "name": "Paladin",
+        "cost": 58,
+        "faction": "Loyalists",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 3,
+        "role": "scout",
+        "attacks": [
+            {
+                "name": "sword",
+                "dmg": 8,
+                "hits": 5,
+                "attack_type": "arcane",
+                "ranged": 0,
+                "attack_id": "99ded8c46df6"
+            },
+            {
+                "name": "lance",
+                "dmg": 15,
+                "hits": 2,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "attack_id": "573f96f08827"
+            }
+        ],
+        "unit_id": "bbe93050"
+    },
+    "Grand Knight": {
+        "name": "Grand Knight",
+        "cost": 58,
+        "faction": "Loyalists",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 3,
+        "role": "scout",
+        "attacks": [
+            {
+                "name": "longsword",
+                "dmg": 12,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "097a3d8841ae"
+            },
+            {
+                "name": "lance",
+                "dmg": 17,
+                "hits": 2,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "attack_id": "8fb86451f9b4"
+            }
+        ],
+        "unit_id": "dc794a5e"
+    },
+    "Mage": {
+        "name": "Mage",
+        "evolution": [
+            "Red Mage",
+            "White Mage"
+        ],
+        "cost": 20,
+        "faction": "Loyalists/Rebels",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 1,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "staff",
+                "dmg": 5,
+                "hits": 1,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "0b254830742d"
+            },
+            {
+                "name": "missile",
+                "dmg": 7,
+                "hits": 3,
+                "attack_type": "fire",
+                "ranged": 1,
+                "attack_id": "cfdbc2326259"
+            }
+        ],
+        "unit_id": "d1c9f0d1"
+    },
+    "Red Mage": {
+        "name": "Red Mage",
+        "evolution": [
+            "Silver Mage",
+            "Arch Mage"
+        ],
+        "cost": 40,
+        "faction": "Loyalists/Rebels",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 2,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "staff",
+                "dmg": 6,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "e298cb87f38c"
+            },
+            {
+                "name": "fireball",
+                "dmg": 8,
+                "hits": 4,
+                "attack_type": "fire",
+                "ranged": 1,
+                "attack_id": "ae27d381b3f6"
+            }
+        ],
+        "unit_id": "012716e1"
+    },
+    "Silver Mage": {
+        "name": "Silver Mage",
+        "cost": 59,
+        "faction": "Loyalists/Rebels",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 3,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "staff",
+                "dmg": 7,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "dbe3d6d5c6e2"
+            },
+            {
+                "name": "missile",
+                "dmg": 9,
+                "hits": 4,
+                "attack_type": "fire",
+                "ranged": 1,
+                "attack_id": "9ddeac8d0046"
+            }
+        ],
+        "unit_id": "6af89f4a"
+    },
+    "Arch Mage": {
+        "name": "Arch Mage",
+        "evolution": [
+            "Great Mage"
+        ],
+        "cost": 59,
+        "faction": "Loyalists/Rebels",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 3,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "staff",
+                "dmg": 7,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "1b0c13e26d72"
+            },
+            {
+                "name": "missile",
+                "dmg": 12,
+                "hits": 4,
+                "attack_type": "fire",
+                "ranged": 1,
+                "attack_id": "65890a72c3c6"
+            }
+        ],
+        "unit_id": "82e4b49d"
+    },
+    "Great Mage": {
+        "name": "Great Mage",
+        "cost": 72,
+        "faction": "Loyalists/Rebels",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 4,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "staff",
+                "dmg": 9,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "390d1f86a910"
+            },
+            {
+                "name": "missile",
+                "dmg": 16,
+                "hits": 4,
+                "attack_type": "fire",
+                "ranged": 1,
+                "attack_id": "ca69498d89a7"
+            }
+        ],
+        "unit_id": "a4ec614e"
+    },
+    "White Mage": {
+        "name": "White Mage",
+        "evolution": [
+            "Mage of Light"
+        ],
+        "cost": 40,
+        "faction": "Loyalists/Rebels",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 2,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "staff",
+                "dmg": 6,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "f635db98405d"
+            },
+            {
+                "name": "lightbeam",
+                "dmg": 9,
+                "hits": 3,
+                "attack_type": "arcane",
+                "ranged": 1,
+                "attack_id": "fdef34bfd906"
+            }
+        ],
+        "unit_id": "36fbc150"
+    },
+    "Mage of Light": {
+        "name": "Mage of Light",
+        "cost": 64,
+        "faction": "Loyalists/Rebels",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 3,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "morning star",
+                "dmg": 7,
+                "hits": 3,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "64b9bcc9e97f"
+            },
+            {
+                "name": "lightbeam",
+                "dmg": 12,
+                "hits": 3,
+                "attack_type": "arcane",
+                "ranged": 1,
+                "attack_id": "9b7552660ca0"
+            }
+        ],
+        "unit_id": "d8b1a4b2"
+    },
+    "Peasant": {
+        "name": "Peasant",
+        "evolution": [
+            "Bowman",
+            "Spearman"
+        ],
+        "cost": 8,
+        "faction": "Loyalists",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 0,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "pitchfork",
+                "dmg": 5,
+                "hits": 2,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "attack_id": "604ba602a70a"
+            },
+            {
+                "name": "pitchfork",
+                "dmg": 4,
+                "hits": 1,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "8d0f05d18b42"
+            }
+        ],
+        "unit_id": "f0389950"
+    },
+    "Woodsman": {
+        "name": "Woodsman",
+        "evolution": [
+            "Bowman",
+            "Poacher"
+        ],
+        "cost": 10,
+        "faction": "Loyalists",
+        "race": "Humans",
+        "alignment": "neutral",
+        "lvl": 0,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "dagger",
+                "dmg": 3,
+                "hits": 1,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "07c675300fe1"
+            },
+            {
+                "name": "bow",
+                "dmg": 4,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "4fb066edbbc5"
+            }
+        ],
+        "unit_id": "5fef1752"
+    },
+    "Bowman": {
+        "name": "Bowman",
+        "evolution": [
+            "Longbowman"
+        ],
+        "cost": 14,
+        "faction": "Loyalists",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 1,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "short sword",
+                "dmg": 4,
+                "hits": 2,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "f0c7208e2268"
+            },
+            {
+                "name": "bow",
+                "dmg": 6,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "1d761ee6483b"
+            }
+        ],
+        "unit_id": "8f93be39"
+    },
+    "Longbowman": {
+        "name": "Longbowman",
+        "evolution": [
+            "Master Bowman"
+        ],
+        "cost": 26,
+        "faction": "Loyalists",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 2,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "sword",
+                "dmg": 8,
+                "hits": 2,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "198ba5febce9"
+            },
+            {
+                "name": "longbow",
+                "dmg": 10,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "59cff701df44"
+            }
+        ],
+        "unit_id": "73ed6d3f"
+    },
+    "Master Bowman": {
+        "name": "Master Bowman",
+        "cost": 46,
+        "faction": "Loyalists",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 3,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "sword",
+                "dmg": 8,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "208d995ddd7c"
+            },
+            {
+                "name": "longbow",
+                "dmg": 11,
+                "hits": 4,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "13e140371811"
+            }
+        ],
+        "unit_id": "f6720123"
+    },
+    "Spearman": {
+        "name": "Spearman",
+        "evolution": [
+            "Javelineer",
+            "Pikeman",
+            "Swordsman"
+        ],
+        "cost": 14,
+        "faction": "Loyalists",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 1,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "spear",
+                "dmg": 7,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "first_strike": 1,
+                "attack_id": "6e66fe857d7f"
+            },
+            {
+                "name": "javelin",
+                "dmg": 6,
+                "hits": 1,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "b9d26ea1a2d4"
+            }
+        ],
+        "unit_id": "51de845f"
+    },
+    "Swordsman": {
+        "name": "Swordsman",
+        "evolution": [
+            "Royal Guard"
+        ],
+        "cost": 25,
+        "faction": "Loyalists",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "sword",
+                "dmg": 8,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "98cc6e5db985"
+            }
+        ],
+        "unit_id": "195ab62f"
+    },
+    "Royal Guard": {
+        "name": "Royal Guard",
+        "cost": 43,
+        "faction": "Loyalists",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 3,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "longsword",
+                "dmg": 11,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "c44a16430473"
+            }
+        ],
+        "unit_id": "c760bdac"
+    },
+    "Pikeman": {
+        "name": "Pikeman",
+        "evolution": [
+            "Halberdier"
+        ],
+        "cost": 25,
+        "faction": "Loyalists",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "pike",
+                "dmg": 10,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "first_strike": 1,
+                "attack_id": "00ccb180dab8"
+            }
+        ],
+        "unit_id": "2644f78a"
+    },
+    "Halberdier": {
+        "name": "Halberdier",
+        "cost": 44,
+        "faction": "Loyalists",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 3,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "halberd",
+                "dmg": 15,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "first_strike": 1,
+                "attack_id": "6776eb18560a"
+            },
+            {
+                "name": "halberd",
+                "dmg": 19,
+                "hits": 2,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "0a73b3293c83"
+            }
+        ],
+        "unit_id": "5f55f00b"
+    },
+    "Javelineer": {
+        "name": "Javelineer",
+        "cost": 25,
+        "faction": "Loyalists",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "spear",
+                "dmg": 8,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "first_strike": 1,
+                "attack_id": "f112d0a819f1"
+            },
+            {
+                "name": "javelin",
+                "dmg": 11,
+                "hits": 2,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "aeda549e97d2"
+            }
+        ],
+        "unit_id": "c0153c39"
+    },
+    "Ruffian": {
+        "name": "Ruffian",
+        "evolution": [
+            "Footpad",
+            "Thug"
+        ],
+        "cost": 6,
+        "faction": "Knalgan Alliance",
+        "race": "Humans",
+        "alignment": "chaotic",
+        "lvl": 0,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "club",
+                "dmg": 5,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "4ae738c557bf"
+            }
+        ],
+        "unit_id": "74ec1d6c"
+    },
+    "Footpad": {
+        "name": "Footpad",
+        "evolution": [
+            "Outlaw"
+        ],
+        "cost": 14,
+        "faction": "Knalgan Alliance",
+        "race": "Humans",
+        "alignment": "chaotic",
+        "lvl": 1,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "club",
+                "dmg": 4,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "226ee1605b5a"
+            },
+            {
+                "name": "sling",
+                "dmg": 5,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 1,
+                "attack_id": "88c0b1473e16"
+            }
+        ],
+        "unit_id": "3410820f"
+    },
+    "Outlaw": {
+        "name": "Outlaw",
+        "evolution": [
+            "Fugitive"
+        ],
+        "cost": 28,
+        "faction": "Knalgan Alliance",
+        "race": "Humans",
+        "alignment": "chaotic",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "mace",
+                "dmg": 8,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "33b8634e2f96"
+            },
+            {
+                "name": "sling",
+                "dmg": 6,
+                "hits": 3,
+                "attack_type": "impact",
+                "ranged": 1,
+                "attack_id": "7b87af02c6f3"
+            }
+        ],
+        "unit_id": "d686c7be"
+    },
+    "Fugitive": {
+        "name": "Fugitive",
+        "cost": 56,
+        "faction": "Knalgan Alliance",
+        "race": "Humans",
+        "alignment": "chaotic",
+        "lvl": 3,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "mace",
+                "dmg": 11,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "fc0a0fec31ca"
+            },
+            {
+                "name": "sling",
+                "dmg": 7,
+                "hits": 4,
+                "attack_type": "impact",
+                "ranged": 1,
+                "attack_id": "8fb971d418bb"
+            }
+        ],
+        "unit_id": "76891bd2"
+    },
+    "Thug": {
+        "name": "Thug",
+        "evolution": [
+            "Bandit"
+        ],
+        "cost": 13,
+        "faction": "Knalgan Alliance",
+        "race": "Humans",
+        "alignment": "chaotic",
+        "lvl": 1,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "club",
+                "dmg": 5,
+                "hits": 4,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "60aac3108df8"
+            }
+        ],
+        "unit_id": "362e31cc"
+    },
+    "Bandit": {
+        "name": "Bandit",
+        "evolution": [
+            "Highwayman"
+        ],
+        "cost": 23,
+        "faction": "Knalgan Alliance",
+        "race": "Humans",
+        "alignment": "chaotic",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "mace",
+                "dmg": 8,
+                "hits": 4,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "a7710d89892c"
+            }
+        ],
+        "unit_id": "a14d614a"
+    },
+    "Highwayman": {
+        "name": "Highwayman",
+        "cost": 46,
+        "faction": "Knalgan Alliance",
+        "race": "Humans",
+        "alignment": "chaotic",
+        "lvl": 3,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "mace",
+                "dmg": 11,
+                "hits": 4,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "a030df5f4371"
+            }
+        ],
+        "unit_id": "d42f6a54"
+    },
+    "Poacher": {
+        "name": "Poacher",
+        "evolution": [
+            "Trapper"
+        ],
+        "cost": 14,
+        "faction": "Knalgan Alliance",
+        "race": "Humans",
+        "alignment": "chaotic",
+        "lvl": 1,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "dagger",
+                "dmg": 3,
+                "hits": 2,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "12690b06f387"
+            },
+            {
+                "name": "bow",
+                "dmg": 4,
+                "hits": 4,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "ad63e0d09a89"
+            }
+        ],
+        "unit_id": "7a64360a"
+    },
+    "Trapper": {
+        "name": "Trapper",
+        "evolution": [
+            "Huntsman",
+            "Ranger"
+        ],
+        "cost": 27,
+        "faction": "Knalgan Alliance",
+        "race": "Humans",
+        "alignment": "chaotic",
+        "lvl": 2,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "dagger",
+                "dmg": 4,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "f4b4d9033864"
+            },
+            {
+                "name": "bow",
+                "dmg": 6,
+                "hits": 4,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "5d267261226e"
+            }
+        ],
+        "unit_id": "481165f9"
+    },
+    "Huntsman": {
+        "name": "Huntsman",
+        "cost": 54,
+        "faction": "Knalgan Alliance",
+        "race": "Humans",
+        "alignment": "chaotic",
+        "lvl": 3,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "dagger",
+                "dmg": 5,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "f07130d6ce7e"
+            },
+            {
+                "name": "bow",
+                "dmg": 9,
+                "hits": 4,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "2aa78da77814"
+            }
+        ],
+        "unit_id": "4e9323fb"
+    },
+    "Ranger": {
+        "name": "Ranger",
+        "cost": 60,
+        "faction": "Knalgan Alliance",
+        "race": "Humans",
+        "alignment": "chaotic",
+        "lvl": 3,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "sword",
+                "dmg": 7,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "162a2a1e2d03"
+            },
+            {
+                "name": "bow",
+                "dmg": 7,
+                "hits": 4,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "114a96033903"
+            }
+        ],
+        "unit_id": "1a25d866"
+    },
+    "Mermaid Initiate": {
+        "name": "Mermaid Initiate",
+        "evolution": [
+            "Mermaid Priestess",
+            "Mermaid Enchantress"
+        ],
+        "cost": 19,
+        "faction": "Rebels",
+        "race": "Mermen",
+        "alignment": "lawful",
+        "lvl": 1,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "staff",
+                "dmg": 7,
+                "hits": 1,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "cf46dc77c607"
+            },
+            {
+                "name": "water spray",
+                "dmg": 8,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 1,
+                "attack_id": "98c7d3149647"
+            }
+        ],
+        "unit_id": "21f32d47"
+    },
+    "Mermaid Priestess": {
+        "name": "Mermaid Priestess",
+        "evolution": [
+            "Mermaid Diviner"
+        ],
+        "cost": 38,
+        "faction": "Rebels",
+        "race": "Mermen",
+        "alignment": "lawful",
+        "lvl": 2,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "staff",
+                "dmg": 5,
+                "hits": 3,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "ff7d57335ea2"
+            },
+            {
+                "name": "lightbeam",
+                "dmg": 6,
+                "hits": 4,
+                "attack_type": "arcane",
+                "ranged": 1,
+                "attack_id": "ace99b725512"
+            }
+        ],
+        "unit_id": "00dece14"
+    },
+    "Mermaid Diviner": {
+        "name": "Mermaid Initiate",
+        "cost": 57,
+        "faction": "Rebels",
+        "race": "Mermen",
+        "alignment": "lawful",
+        "lvl": 3,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "staff",
+                "dmg": 7,
+                "hits": 3,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "829ee932445d"
+            },
+            {
+                "name": "lightbeam",
+                "dmg": 8,
+                "hits": 4,
+                "attack_type": "impact",
+                "ranged": 1,
+                "attack_id": "e1972455f53c"
+            }
+        ],
+        "unit_id": "b658a9a8"
+    },
+    "Mermaid Enchantress": {
+        "name": "Mermaid Enchantress",
+        "evolution": [
+            "Mermaid Siren"
+        ],
+        "cost": 33,
+        "faction": "Rebels",
+        "race": "Mermen",
+        "alignment": "lawful",
+        "lvl": 2,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "staff",
+                "dmg": 9,
+                "hits": 1,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "631d42653030"
+            },
+            {
+                "name": "water spray",
+                "dmg": 14,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 1,
+                "attack_id": "2181133c29a1"
+            }
+        ],
+        "unit_id": "cba6b8ce"
+    },
+    "Mermaid Siren": {
+        "name": "Mermaid Siren",
+        "cost": 52,
+        "faction": "Rebels",
+        "race": "Mermen",
+        "alignment": "lawful",
+        "lvl": 3,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "naia touch",
+                "dmg": 12,
+                "hits": 1,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "6dc4ffa8fb05"
+            },
+            {
+                "name": "water spray",
+                "dmg": 15,
+                "hits": 3,
+                "attack_type": "impact",
+                "ranged": 1,
+                "attack_id": "98d923847205"
+            }
+        ],
+        "unit_id": "8910a978"
+    },
+    "Merman Fighter": {
+        "name": "Merman Fighter",
+        "evolution": [
+            "Merman Warrior"
+        ],
+        "cost": 14,
+        "faction": "Loyalists",
+        "race": "Mermen",
+        "alignment": "lawful",
+        "lvl": 1,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "trident",
+                "dmg": 6,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "attack_id": "cb503f1156c0"
+            }
+        ],
+        "unit_id": "fc9483d3"
+    },
+    "Merman Warrior": {
+        "name": "Merman Warrior",
+        "evolution": [
+            "Merman Triton",
+            "Merman Hoplite"
+        ],
+        "cost": 28,
+        "faction": "Loyalists",
+        "race": "Mermen",
+        "alignment": "lawful",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "trident",
+                "dmg": 10,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "attack_id": "4fb0ba02a46b"
+            }
+        ],
+        "unit_id": "19cc1b6e"
+    },
+    "Merman Triton": {
+        "name": "Merman Triton",
+        "cost": 43,
+        "faction": "Loyalists",
+        "race": "Mermen",
+        "alignment": "lawful",
+        "lvl": 3,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "trident",
+                "dmg": 14,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "attack_id": "cac4a839d835"
+            },
+            {
+                "name": "trident",
+                "dmg": 19,
+                "hits": 2,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "265d789194b1"
+            }
+        ],
+        "unit_id": "747a1623"
+    },
+    "Merman Hoplite": {
+        "name": "Merman Hoplite",
+        "cost": 43,
+        "faction": "Loyalists",
+        "race": "Mermen",
+        "alignment": "lawful",
+        "lvl": 3,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "trident",
+                "dmg": 15,
+                "hits": 2,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "attack_id": "7d7b2580afde"
+            }
+        ],
+        "unit_id": "d06a2d8b"
+    },
+    "Merman Hunter": {
+        "name": "Merman Hunter",
+        "evolution": [
+            "Merman Netcaster",
+            "Merman Spearman"
+        ],
+        "cost": 15,
+        "faction": "Rebels",
+        "race": "Mermen",
+        "alignment": "lawful",
+        "lvl": 1,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "spear",
+                "dmg": 4,
+                "hits": 2,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "attack_id": "c1cf1488397e"
+            },
+            {
+                "name": "spear",
+                "dmg": 5,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "6afc5d353143"
+            }
+        ],
+        "unit_id": "adeb0e98"
+    },
+    "Merman Spearman": {
+        "name": "Merman Spearman",
+        "evolution": [
+            "Merman Javelineer"
+        ],
+        "cost": 27,
+        "faction": "Rebels",
+        "race": "Mermen",
+        "alignment": "lawful",
+        "lvl": 2,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "spear",
+                "dmg": 6,
+                "hits": 2,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "attack_id": "d73dd8bc996a"
+            },
+            {
+                "name": "spear",
+                "dmg": 6,
+                "hits": 4,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "5681dc9e4a9d"
+            }
+        ],
+        "unit_id": "e617a33e"
+    },
+    "Merman Javelineer": {
+        "name": "Merman Javelineer",
+        "cost": 48,
+        "faction": "Rebels",
+        "race": "Mermen",
+        "alignment": "lawful",
+        "lvl": 3,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "spear",
+                "dmg": 8,
+                "hits": 2,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "attack_id": "170ecdf750de"
+            },
+            {
+                "name": "spear",
+                "dmg": 10,
+                "hits": 4,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "01b071d2ff14"
+            }
+        ],
+        "unit_id": "ae7d20fb"
+    },
+    "Merman Netcaster": {
+        "name": "Merman Netcaster",
+        "evolution": [
+            "Merman Entangler"
+        ],
+        "cost": 27,
+        "faction": "Rebels",
+        "race": "Mermen",
+        "alignment": "lawful",
+        "lvl": 2,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "club",
+                "dmg": 6,
+                "hits": 3,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "855cb052c546"
+            },
+            {
+                "name": "net",
+                "dmg": 9,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 1,
+                "attack_id": "e5d535ddfb47"
+            }
+        ],
+        "unit_id": "0df83d13"
+    },
+    "Merman Entangler": {
+        "name": "Merman Entangler",
+        "cost": 46,
+        "faction": "Rebels",
+        "race": "Mermen",
+        "alignment": "lawful",
+        "lvl": 3,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "club",
+                "dmg": 8,
+                "hits": 3,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "b3f256d6d582"
+            },
+            {
+                "name": "trident",
+                "dmg": 8,
+                "hits": 3,
+                "attack_type": "impact",
+                "ranged": 1,
+                "attack_id": "0f3266e2b433"
+            }
+        ],
+        "unit_id": "c2f661a2"
+    },
+    "Naga Fighter": {
+        "name": "Naga Fighter",
+        "evolution": [
+            "Naga Warrior"
+        ],
+        "cost": 14,
+        "faction": "Northerners",
+        "race": "Naga",
+        "alignment": "neutral",
+        "lvl": 1,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "sword",
+                "dmg": 4,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "19486598c759"
+            }
+        ],
+        "unit_id": "610323e2"
+    },
+    "Naga Warrior": {
+        "name": "Naga Warrior",
+        "evolution": [
+            "Naga Myrmidon"
+        ],
+        "cost": 27,
+        "faction": "Northerners",
+        "race": "Naga",
+        "alignment": "neutral",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "sword",
+                "dmg": 7,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "ae18f9c42645"
+            }
+        ],
+        "unit_id": "d0b1bbf0"
+    },
+    "Naga Myrmidon": {
+        "name": "Naga Myrmidon",
+        "cost": 48,
+        "faction": "Northerners",
+        "race": "Naga",
+        "alignment": "neutral",
+        "lvl": 3,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "sword",
+                "dmg": 9,
+                "hits": 5,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "0cf279be36d3"
+            }
+        ],
+        "unit_id": "dd1159ad"
+    },
+    "Orcish Leader": {
+        "name": "Orcish Leader",
+        "evolution": [
+            "Orcish Ruler"
+        ],
+        "cost": 20,
+        "faction": "Northerners",
+        "race": "Orcs",
+        "alignment": "chaotic",
+        "lvl": 1,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "sword",
+                "dmg": 7,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "7e4aa8933d65"
+            },
+            {
+                "name": "crossbow",
+                "dmg": 5,
+                "hits": 2,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "a81410efb9dd"
+            }
+        ],
+        "unit_id": "82748861"
+    },
+    "Orcish Ruler": {
+        "name": "Orcish Ruler",
+        "evolution": [
+            "Orcish Sovereign"
+        ],
+        "cost": 35,
+        "faction": "Northerners",
+        "race": "Orcs",
+        "alignment": "chaotic",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "greatsword",
+                "dmg": 9,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "8c3ef558c54c"
+            },
+            {
+                "name": "crossbow",
+                "dmg": 6,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "b8a13f28b8b6"
+            }
+        ],
+        "unit_id": "4472d520"
+    },
+    "Orcish Sovereign": {
+        "name": "Orcish Sovereign",
+        "cost": 50,
+        "faction": "Northerners",
+        "race": "Orcs",
+        "alignment": "chaotic",
+        "lvl": 3,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "greatsword",
+                "dmg": 10,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "92b19f649aa1"
+            },
+            {
+                "name": "crossbow",
+                "dmg": 9,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "bd4107786aab"
+            }
+        ],
+        "unit_id": "62c80f91"
+    },
+    "Orcish Archer": {
+        "name": "Orcish Archer",
+        "evolution": [
+            "Orcish Crossbowman"
+        ],
+        "cost": 14,
+        "faction": "Northerners",
+        "race": "Orcs",
+        "alignment": "chaotic",
+        "lvl": 1,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "dagger",
+                "dmg": 3,
+                "hits": 2,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "cd9bacaa1af6"
+            },
+            {
+                "name": "bow",
+                "dmg": 6,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "997dbdff4014"
+            },
+            {
+                "name": "bow",
+                "dmg": 7,
+                "hits": 2,
+                "attack_type": "fire",
+                "ranged": 1,
+                "attack_id": "f55b8705e2d4"
+            }
+        ],
+        "unit_id": "aaade8f1"
+    },
+    "Orcish Crossbowman": {
+        "name": "Orcish Crossbowman",
+        "evolution": [
+            "Orcish Slurbow"
+        ],
+        "cost": 26,
+        "faction": "Northerners",
+        "race": "Orcs",
+        "alignment": "chaotic",
+        "lvl": 2,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "short sword",
+                "dmg": 4,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "d0dde6f8d19e"
+            },
+            {
+                "name": "crossbow",
+                "dmg": 8,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "a15ad31886ce"
+            },
+            {
+                "name": "crossbow",
+                "dmg": 10,
+                "hits": 2,
+                "attack_type": "fire",
+                "ranged": 1,
+                "attack_id": "d61ae3890f29"
+            }
+        ],
+        "unit_id": "5ee97e8b"
+    },
+    "Orcish Slurbow": {
+        "name": "Orcish Slurbow",
+        "cost": 43,
+        "faction": "Northerners",
+        "race": "Orcs",
+        "alignment": "chaotic",
+        "lvl": 3,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "short sword",
+                "dmg": 8,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "f5852bd1df7e"
+            },
+            {
+                "name": "crossbow",
+                "dmg": 12,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "9651ea1bdc34"
+            },
+            {
+                "name": "crossbow",
+                "dmg": 15,
+                "hits": 2,
+                "attack_type": "fire",
+                "ranged": 1,
+                "attack_id": "30f5975ae136"
+            }
+        ],
+        "unit_id": "62341532"
+    },
+    "Orcish Assassin": {
+        "name": "Orcish Assassin",
+        "evolution": [
+            "Orcish Slayer"
+        ],
+        "cost": 17,
+        "faction": "Northerners",
+        "race": "Orcs",
+        "alignment": "chaotic",
+        "lvl": 1,
+        "role": "scout",
+        "attacks": [
+            {
+                "name": "dagger",
+                "dmg": 7,
+                "hits": 1,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "5201f25a1b35"
+            },
+            {
+                "name": "throwing knives",
+                "dmg": 3,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 1,
+                "attack_id": "14772e1c6376"
+            }
+        ],
+        "unit_id": "8bcf4211"
+    },
+    "Orcish Slayer": {
+        "name": "Orcish Slayer",
+        "cost": 33,
+        "faction": "Northerners",
+        "race": "Orcs",
+        "alignment": "chaotic",
+        "lvl": 2,
+        "role": "scout",
+        "attacks": [
+            {
+                "name": "dagger",
+                "dmg": 9,
+                "hits": 2,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "11087c81da02"
+            },
+            {
+                "name": "throwing knives",
+                "dmg": 6,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 1,
+                "attack_id": "7061d6458647"
+            }
+        ],
+        "unit_id": "1198d704"
+    },
+    "Orcish Grunt": {
+        "name": "Orcish Grunt",
+        "evolution": [
+            "Orcish Warrior"
+        ],
+        "cost": 12,
+        "faction": "Northerners",
+        "race": "Orcs",
+        "alignment": "chaotic",
+        "lvl": 1,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "sword",
+                "dmg": 9,
+                "hits": 2,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "4468eb4f11ea"
+            }
+        ],
+        "unit_id": "c7a234b4"
+    },
+    "Orcish Warrior": {
+        "name": "Orcish Warrior",
+        "evolution": [
+            "Orcish Warlord"
+        ],
+        "cost": 26,
+        "faction": "Northerners",
+        "race": "Orcs",
+        "alignment": "chaotic",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "greatsword",
+                "dmg": 10,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "c746af2c1bc6"
+            }
+        ],
+        "unit_id": "2b1ebc33"
+    },
+    "Orcish Warlord": {
+        "name": "Orcish Warlord",
+        "cost": 48,
+        "faction": "Northerners",
+        "race": "Orcs",
+        "alignment": "chaotic",
+        "lvl": 3,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "greatsword",
+                "dmg": 15,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "0a3dc42c7b63"
+            },
+            {
+                "name": "bow",
+                "dmg": 8,
+                "hits": 2,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "60bd020b3ae8"
+            }
+        ],
+        "unit_id": "86f627a3"
+    },
+    "Saurian Augur": {
+        "name": "Saurian Augur",
+        "evolution": [
+            "Saurian Oracle",
+            "Saurian Soothsayer"
+        ],
+        "cost": 16,
+        "faction": "Drakes",
+        "race": "Saurians",
+        "alignment": "chaotic",
+        "lvl": 1,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "staff",
+                "dmg": 4,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "0ed6b90a330b"
+            },
+            {
+                "name": "curse",
+                "dmg": 5,
+                "hits": 3,
+                "attack_type": "cold",
+                "ranged": 1,
+                "attack_id": "415602b8a5f0"
+            }
+        ],
+        "unit_id": "e67fc98e"
+    },
+    "Saurian Oracle": {
+        "name": "Saurian Oracle",
+        "cost": 27,
+        "faction": "Drakes",
+        "race": "Saurians",
+        "alignment": "chaotic",
+        "lvl": 2,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "staff",
+                "dmg": 4,
+                "hits": 3,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "93bd91e33606"
+            },
+            {
+                "name": "curse",
+                "dmg": 8,
+                "hits": 3,
+                "attack_type": "cold",
+                "ranged": 1,
+                "attack_id": "afd714ecc008"
+            }
+        ],
+        "unit_id": "c21ece52"
+    },
+    "Saurian Soothsayer": {
+        "name": "Saurian Soothsayer",
+        "cost": 27,
+        "faction": "Drakes",
+        "race": "Saurians",
+        "alignment": "chaotic",
+        "lvl": 2,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "staff",
+                "dmg": 5,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "a597f97dfc7a"
+            },
+            {
+                "name": "curse",
+                "dmg": 6,
+                "hits": 3,
+                "attack_type": "cold",
+                "ranged": 1,
+                "attack_id": "37857504ec29"
+            }
+        ],
+        "unit_id": "896405da"
+    },
+    "Saurian Skirmisher": {
+        "name": "Saurian Skirmisher",
+        "evolution": [
+            "Saurian Ambusher"
+        ],
+        "cost": 15,
+        "faction": "Drakes",
+        "race": "Saurians",
+        "alignment": "chaotic",
+        "lvl": 1,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "spear",
+                "dmg": 4,
+                "hits": 4,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "attack_id": "a2f7ce55eeeb"
+            },
+            {
+                "name": "spear",
+                "dmg": 4,
+                "hits": 2,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "15eb03d066a2"
+            }
+        ],
+        "unit_id": "9dffbf7a"
+    },
+    "Saurian Ambusher": {
+        "name": "Saurian Ambusher",
+        "evolution": [
+            "Saurian Flanker"
+        ],
+        "cost": 30,
+        "faction": "Drakes",
+        "race": "Saurians",
+        "alignment": "chaotic",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "spear",
+                "dmg": 6,
+                "hits": 4,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "attack_id": "3bc01ed0dc6d"
+            },
+            {
+                "name": "spear",
+                "dmg": 5,
+                "hits": 2,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "6566619ed964"
+            }
+        ],
+        "unit_id": "c6f4a2e6"
+    },
+    "Saurian Flanker": {
+        "name": "Saurian Flanker",
+        "cost": 46,
+        "faction": "Drakes",
+        "race": "Saurians",
+        "alignment": "chaotic",
+        "lvl": 3,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "spear",
+                "dmg": 8,
+                "hits": 4,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "attack_id": "f11cb300c540"
+            },
+            {
+                "name": "spear",
+                "dmg": 7,
+                "hits": 2,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "d30d49cec92e"
+            }
+        ],
+        "unit_id": "fb7333da"
+    },
+    "Ghost": {
+        "name": "Ghost",
+        "evolution": [
+            "Shadow",
+            "Wraith"
+        ],
+        "cost": 18,
+        "faction": "Undead",
+        "race": "Undead",
+        "alignment": "chaotic",
+        "lvl": 1,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "touch",
+                "dmg": 4,
+                "hits": 3,
+                "attack_type": "arcane",
+                "ranged": 0,
+                "attack_id": "c834844f7367"
+            },
+            {
+                "name": "wail",
+                "dmg": 3,
+                "hits": 3,
+                "attack_type": "cold",
+                "ranged": 1,
+                "attack_id": "d4b78c3f8ee9"
+            }
+        ],
+        "unit_id": "21835a04"
+    },
+    "Wraith": {
+        "name": "Wraith",
+        "evolution": [
+            "Spectre"
+        ],
+        "cost": 38,
+        "faction": "Undead",
+        "race": "Undead",
+        "alignment": "chaotic",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "baneblade",
+                "dmg": 6,
+                "hits": 4,
+                "attack_type": "arcane",
+                "ranged": 0,
+                "attack_id": "17a17f119d3d"
+            },
+            {
+                "name": "wail",
+                "dmg": 4,
+                "hits": 3,
+                "attack_type": "cold",
+                "ranged": 1,
+                "attack_id": "3ce91cb380a2"
+            }
+        ],
+        "unit_id": "649ad697"
+    },
+    "Spectre": {
+        "name": "Spectre",
+        "cost": 52,
+        "faction": "Undead",
+        "race": "Undead",
+        "alignment": "chaotic",
+        "lvl": 3,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "baneblade",
+                "dmg": 9,
+                "hits": 4,
+                "attack_type": "arcane",
+                "ranged": 0,
+                "attack_id": "fceb14078be8"
+            },
+            {
+                "name": "wail",
+                "dmg": 6,
+                "hits": 3,
+                "attack_type": "cold",
+                "ranged": 1,
+                "attack_id": "81188f5f80ca"
+            }
+        ],
+        "unit_id": "7ff6b3ee"
+    },
+    "Shadow": {
+        "name": "Shadow",
+        "evolution": [
+            "Nightgaunt"
+        ],
+        "cost": 38,
+        "faction": "Undead",
+        "race": "Undead",
+        "alignment": "chaotic",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "claws",
+                "dmg": 8,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "d79efc22ef95"
+            }
+        ],
+        "unit_id": "28baeecc"
+    },
+    "Nightgaunt": {
+        "name": "Nightgaunt",
+        "cost": 52,
+        "faction": "Undead",
+        "race": "Undead",
+        "alignment": "chaotic",
+        "lvl": 3,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "claws",
+                "dmg": 10,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "49d62ff3366b"
+            }
+        ],
+        "unit_id": "30c22b95"
+    },
+    "Ghoul": {
+        "name": "Ghoul",
+        "evolution": [
+            "Necrophage"
+        ],
+        "cost": 16,
+        "faction": "Undead",
+        "race": "Undead",
+        "alignment": "chaotic",
+        "lvl": 1,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "claws",
+                "dmg": 4,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "7dbfb5c28a2e"
+            }
+        ],
+        "unit_id": "0acee67e"
+    },
+    "Necrophage": {
+        "name": "Necrophage",
+        "evolution": [
+            "Ghast"
+        ],
+        "cost": 27,
+        "faction": "Undead",
+        "race": "Undead",
+        "alignment": "chaotic",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "claws",
+                "dmg": 7,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "4d9a5c346769"
+            }
+        ],
+        "unit_id": "04f5ccff"
+    },
+    "Ghast": {
+        "name": "Ghoul",
+        "cost": 41,
+        "faction": "Undead",
+        "race": "Undead",
+        "alignment": "chaotic",
+        "lvl": 3,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "bite",
+                "dmg": 10,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "8e46c3aebec4"
+            }
+        ],
+        "unit_id": "442c74d7"
+    },
+    "Skeleton": {
+        "name": "Skeleton",
+        "evolution": [
+            "Deathblade",
+            "Revenant"
+        ],
+        "cost": 15,
+        "faction": "Undead",
+        "race": "Undead",
+        "alignment": "chaotic",
+        "lvl": 1,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "axe",
+                "dmg": 7,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "2c762ab09d2a"
+            }
+        ],
+        "unit_id": "f0754ac1"
+    },
+    "Revenant": {
+        "name": "Revenant",
+        "evolution": [
+            "Draug"
+        ],
+        "cost": 28,
+        "faction": "Undead",
+        "race": "Undead",
+        "alignment": "chaotic",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "axe",
+                "dmg": 8,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "d677966ff4c2"
+            }
+        ],
+        "unit_id": "b012030e"
+    },
+    "Draug": {
+        "name": "Draug",
+        "cost": 50,
+        "faction": "Undead",
+        "race": "Undead",
+        "alignment": "chaotic",
+        "lvl": 3,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "axe",
+                "dmg": 12,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "5ea1418a1411"
+            }
+        ],
+        "unit_id": "69d7b53e"
+    },
+    "Deathblade": {
+        "name": "Deathblade",
+        "cost": 28,
+        "faction": "Undead",
+        "race": "Undead",
+        "alignment": "chaotic",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "axe",
+                "dmg": 8,
+                "hits": 5,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "bebeed0ab62f"
+            }
+        ],
+        "unit_id": "99d2fe26"
+    },
+    "Skeleton Archer": {
+        "name": "Skeleton Archer",
+        "evolution": [
+            "Bone Shooter"
+        ],
+        "cost": 14,
+        "faction": "Undead",
+        "race": "Undead",
+        "alignment": "chaotic",
+        "lvl": 1,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "fist",
+                "dmg": 3,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "5e60e667332e"
+            },
+            {
+                "name": "bow",
+                "dmg": 6,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "9fed2ed81d2a"
+            }
+        ],
+        "unit_id": "83b0028b"
+    },
+    "Bone Shooter": {
+        "name": "Bone Shooter",
+        "evolution": [
+            "Banebow"
+        ],
+        "cost": 26,
+        "faction": "Undead",
+        "race": "Undead",
+        "alignment": "chaotic",
+        "lvl": 2,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "dagger",
+                "dmg": 6,
+                "hits": 2,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "e49ab352d3f6"
+            },
+            {
+                "name": "bow",
+                "dmg": 10,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "bf31fc7473d1"
+            }
+        ],
+        "unit_id": "cd4d4f8c"
+    },
+    "Banebow": {
+        "name": "Banebow",
+        "cost": 38,
+        "faction": "Undead",
+        "race": "Undead",
+        "alignment": "chaotic",
+        "lvl": 3,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "dagger",
+                "dmg": 8,
+                "hits": 2,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "81cbb81fbf38"
+            },
+            {
+                "name": "bow",
+                "dmg": 14,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "27b941becee6"
+            }
+        ],
+        "unit_id": "75ffa266"
+    },
+    "Walking Corpse": {
+        "name": "Walking Corpse",
+        "evolution": [
+            "Soulless"
+        ],
+        "cost": 8,
+        "faction": "Undead",
+        "race": "Undead",
+        "alignment": "chaotic",
+        "lvl": 0,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "touch",
+                "dmg": 6,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "plague": 1,
+                "attack_id": "eebe435971a3"
+            }
+        ],
+        "unit_id": "b7eca599"
+    },
+    "Soulless": {
+        "name": "Soulless",
+        "cost": 13,
+        "faction": "Undead",
+        "race": "Undead",
+        "alignment": "chaotic",
+        "lvl": 1,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "touch",
+                "dmg": 7,
+                "hits": 3,
+                "attack_type": "impact",
+                "ranged": 0,
+                "plague": 1,
+                "attack_id": "c54687c38b3f"
+            }
+        ],
+        "unit_id": "1670cfda"
+    },
+    "Wolf Rider": {
+        "name": "Wolf Rider",
+        "evolution": [
+            "Goblin Knight",
+            "Goblin Pillager"
+        ],
+        "cost": 17,
+        "faction": "Northerners",
+        "race": "Wolves",
+        "alignment": "chaotic",
+        "lvl": 1,
+        "role": "scout",
+        "attacks": [
+            {
+                "name": "fangs",
+                "dmg": 5,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "eb705fdc25d7"
+            }
+        ],
+        "unit_id": "67d33ff8"
+    },
+    "Goblin Pillager": {
+        "name": "Goblin Pillager",
+        "cost": 32,
+        "faction": "Northerners",
+        "race": "Wolves",
+        "alignment": "chaotic",
+        "lvl": 2,
+        "role": "scout",
+        "attacks": [
+            {
+                "name": "fangs",
+                "dmg": 5,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "410928e498be"
+            },
+            {
+                "name": "torch",
+                "dmg": 7,
+                "hits": 3,
+                "attack_type": "fire",
+                "ranged": 0,
+                "attack_id": "a51dfb50e954"
+            },
+            {
+                "name": "net",
+                "dmg": 6,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 1,
+                "attack_id": "fa994b508e2c"
+            }
+        ],
+        "unit_id": "4e23a6cf"
+    },
+    "Goblin Knight": {
+        "name": "Goblin Knight",
+        "evolution": [
+            "Direwolf Rider"
+        ],
+        "cost": 32,
+        "faction": "Northerners",
+        "race": "Wolves",
+        "alignment": "chaotic",
+        "lvl": 2,
+        "role": "scout",
+        "attacks": [
+            {
+                "name": "fangs",
+                "dmg": 7,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "f8a33a2fc01a"
+            }
+        ],
+        "unit_id": "150495ba"
+    },
+    "Direwolf Rider": {
+        "name": "Direwolf Rider",
+        "cost": 41,
+        "faction": "Northerners",
+        "race": "Wolves",
+        "alignment": "chaotic",
+        "lvl": 3,
+        "role": "scout",
+        "attacks": [
+            {
+                "name": "fangs",
+                "dmg": 9,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "f243d8ea2d49"
+            },
+            {
+                "name": "claws",
+                "dmg": 4,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "002ba8e5d474"
+            }
+        ],
+        "unit_id": "efdda1ef"
+    },
+    "Wose": {
+        "name": "Wose",
+        "evolution": [
+            "Elder Wose"
+        ],
+        "cost": 20,
+        "faction": "Rebels",
+        "race": "Woses",
+        "alignment": "lawful",
+        "lvl": 1,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "crush",
+                "dmg": 13,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "60d9b47963fa"
+            }
+        ],
+        "unit_id": "e137e697"
+    },
+    "Elder Wose": {
+        "name": "Elder Wose",
+        "evolution": [
+            "Ancient Wose"
+        ],
+        "cost": 31,
+        "faction": "Rebels",
+        "race": "Woses",
+        "alignment": "lawful",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "crush",
+                "dmg": 19,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "dace40270b93"
+            }
+        ],
+        "unit_id": "defa7c1f"
+    },
+    "Ancient Wose": {
+        "name": "Ancient Wose",
+        "cost": 48,
+        "faction": "Rebels",
+        "race": "Woses",
+        "alignment": "lawful",
+        "lvl": 3,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "crush",
+                "dmg": 25,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "2cd6feca4b35"
+            }
+        ],
+        "unit_id": "cd11d17c"
+    },
+    "Thief": {
+        "name": "Thief",
+        "evolution": [
+            "Rogue"
+        ],
+        "cost": 13,
+        "faction": "Knalgan Alliance",
+        "race": "Humans",
+        "alignment": "chaotic",
+        "lvl": 1,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "dagger",
+                "dmg": 4,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "e1528566e416"
+            }
+        ],
+        "unit_id": "e1e21804"
+    },
+    "Rogue": {
+        "name": "Rogue",
+        "evolution": [
+            "Assassin"
+        ],
+        "cost": 24,
+        "faction": "Knalgan Alliance",
+        "race": "Humans",
+        "alignment": "chaotic",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "dagger",
+                "dmg": 6,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "f6f1c932877b"
+            },
+            {
+                "name": "knife",
+                "dmg": 4,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 1,
+                "attack_id": "23400f24696a"
+            }
+        ],
+        "unit_id": "221ae036"
+    },
+    "Assassin": {
+        "name": "Assassin",
+        "cost": 44,
+        "faction": "Knalgan Alliance",
+        "race": "Humans",
+        "alignment": "chaotic",
+        "lvl": 3,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "dagger",
+                "dmg": 8,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "6fd32c43a0e2"
+            },
+            {
+                "name": "knife",
+                "dmg": 5,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 1,
+                "attack_id": "3942117b4dfc"
+            }
+        ],
+        "unit_id": "ede35e01"
+    },
+    "Arif": {
+        "name": "Arif",
+        "evolution": [
+            "Ghazi",
+            "Mudafi"
+        ],
+        "cost": 18,
+        "faction": "Khalifate",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 1,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "long sword",
+                "dmg": 9,
+                "hits": 2,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "41a5840cf7b2"
+            }
+        ],
+        "unit_id": "19bf4d47"
+    },
+    "Ghazi": {
+        "name": "Ghazi",
+        "evolution": [
+            "Shuja"
+        ],
+        "cost": 38,
+        "faction": "Khalifate",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "long sword",
+                "dmg": 13,
+                "hits": 2,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "ca89ba1d9953"
+            },
+            {
+                "name": "shield bash",
+                "dmg": 10,
+                "hits": 1,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "1cbe326941fa"
+            }
+        ],
+        "unit_id": "432d7b4d"
+    },
+    "Shuja": {
+        "name": "Shuja",
+        "evolution": [
+            "Khalid"
+        ],
+        "cost": 58,
+        "faction": "Khalifate",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 3,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "long sword",
+                "dmg": 13,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "eb561b35c470"
+            },
+            {
+                "name": "shield bash",
+                "dmg": 11,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "c99c08498b34"
+            }
+        ],
+        "unit_id": "d3f8c478"
+    },
+    "Khalid": {
+        "name": "Khalid",
+        "cost": 78,
+        "faction": "Khalifate",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 4,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "long sword",
+                "dmg": 13,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "0c3815cd3c33"
+            },
+            {
+                "name": "shield bash",
+                "dmg": 11,
+                "hits": 3,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "34b755c218d6"
+            }
+        ],
+        "unit_id": "1338daf5"
+    },
+    "Mudafi": {
+        "name": "Mudafi",
+        "evolution": [
+            "Rasikh"
+        ],
+        "cost": 38,
+        "faction": "Khalifate",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "spear",
+                "dmg": 15,
+                "hits": 2,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "first_strike": 1,
+                "attack_id": "d6fc75047ba3"
+            }
+        ],
+        "unit_id": "8149ddda"
+    },
+    "Rasikh": {
+        "name": "Rasikh",
+        "cost": 58,
+        "faction": "Khalifate",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 3,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "spear",
+                "dmg": 15,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "first_strike": 1,
+                "attack_id": "a66266c57a89"
+            }
+        ],
+        "unit_id": "662425de"
+    },
+    "Hakim": {
+        "name": "Hakim",
+        "evolution": [
+            "Tabib"
+        ],
+        "cost": 17,
+        "faction": "Khalifate",
+        "race": "Humans",
+        "alignment": "liminal",
+        "lvl": 1,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "mace",
+                "dmg": 7,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "9b18c7f1c679"
+            }
+        ],
+        "unit_id": "6cb16be5"
+    },
+    "Tabib": {
+        "name": "Tabib",
+        "cost": 17,
+        "faction": "Khalifate",
+        "race": "Humans",
+        "alignment": "liminal",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "mace",
+                "dmg": 9,
+                "hits": 3,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "48b24d47f3d4"
+            }
+        ],
+        "unit_id": "52970f68"
+    },
+    "Jundi": {
+        "name": "Jundi",
+        "evolution": [
+            "Monawish",
+            "Muharib"
+        ],
+        "cost": 15,
+        "faction": "Khalifate",
+        "race": "Humans",
+        "alignment": "liminal",
+        "lvl": 1,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "axe",
+                "dmg": 5,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "490f012f37f0"
+            },
+            {
+                "name": "composite bow",
+                "dmg": 6,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "c3e902e1a947"
+            }
+        ],
+        "unit_id": "e02e09e7"
+    },
+    "Muharib": {
+        "name": "Muharib",
+        "evolution": [
+            "Batal"
+        ],
+        "cost": 35,
+        "faction": "Khalifate",
+        "race": "Humans",
+        "alignment": "liminal",
+        "lvl": 2,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "axe",
+                "dmg": 8,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "2937463e9383"
+            },
+            {
+                "name": "composite bow",
+                "dmg": 8,
+                "hits": 4,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "b6935a767ff8"
+            }
+        ],
+        "unit_id": "f853031a"
+    },
+    "Batal": {
+        "name": "Batal",
+        "cost": 60,
+        "faction": "Khalifate",
+        "race": "Humans",
+        "alignment": "liminal",
+        "lvl": 3,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "axe",
+                "dmg": 10,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "ad3244c76289"
+            },
+            {
+                "name": "composite bow",
+                "dmg": 10,
+                "hits": 4,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "32419f84e58d"
+            }
+        ],
+        "unit_id": "5051eecb"
+    },
+    "Monawish": {
+        "name": "Monawish",
+        "evolution": [
+            "Mighwar"
+        ],
+        "cost": 35,
+        "faction": "Khalifate",
+        "race": "Humans",
+        "alignment": "liminal",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "long sword",
+                "dmg": 9,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "4dfccd8f6779"
+            }
+        ],
+        "unit_id": "f975625e"
+    },
+    "Mighwar": {
+        "name": "Mighwar",
+        "cost": 65,
+        "faction": "Khalifate",
+        "race": "Humans",
+        "alignment": "liminal",
+        "lvl": 3,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "long sword",
+                "dmg": 10,
+                "hits": 5,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "9856261e14c4"
+            }
+        ],
+        "unit_id": "0ffed6f9"
+    },
+    "Khaiyal": {
+        "name": "Khaiyal",
+        "evolution": [
+            "Faris",
+            "Qanas"
+        ],
+        "cost": 21,
+        "faction": "Khalifate",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 1,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "lance",
+                "dmg": 20,
+                "hits": 1,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "attack_id": "952290233f6d"
+            },
+            {
+                "name": "mace",
+                "dmg": 6,
+                "hits": 3,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "4cee40fbaed1"
+            }
+        ],
+        "unit_id": "bd7bf4c3"
+    },
+    "Faris": {
+        "name": "Faris",
+        "evolution": [
+            "Mufariq"
+        ],
+        "cost": 40,
+        "faction": "Khalifate",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "lance",
+                "dmg": 29,
+                "hits": 1,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "attack_id": "d64fe2fd3787"
+            },
+            {
+                "name": "mace",
+                "dmg": 9,
+                "hits": 3,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "4d5838809350"
+            }
+        ],
+        "unit_id": "9f32530d"
+    },
+    "Mufariq": {
+        "name": "Mufariq",
+        "cost": 80,
+        "faction": "Khalifate",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 3,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "lance",
+                "dmg": 44,
+                "hits": 1,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "attack_id": "516401855620"
+            },
+            {
+                "name": "mace",
+                "dmg": 14,
+                "hits": 3,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "772c977ef8e5"
+            }
+        ],
+        "unit_id": "d8ad91c9"
+    },
+    "Qanas": {
+        "name": "Qanas",
+        "evolution": [
+            "Hadaf"
+        ],
+        "cost": 34,
+        "faction": "Khalifate",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "mace",
+                "dmg": 8,
+                "hits": 3,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "a6c60602463d"
+            },
+            {
+                "name": "bow",
+                "dmg": 7,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "398dec55f43d"
+            }
+        ],
+        "unit_id": "88c07c36"
+    },
+    "Hadaf": {
+        "name": "Hadaf",
+        "cost": 55,
+        "faction": "Khalifate",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 3,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "mace",
+                "dmg": 10,
+                "hits": 3,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "2ec3d3999878"
+            },
+            {
+                "name": "bow",
+                "dmg": 9,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "7d96264e28f8"
+            }
+        ],
+        "unit_id": "f35bcc78"
+    },
+    "Rami": {
+        "name": "Rami",
+        "evolution": [
+            "Qanas",
+            "Saree"
+        ],
+        "cost": 16,
+        "faction": "Khalifate",
+        "race": "Humans",
+        "alignment": "liminal",
+        "lvl": 1,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "mace",
+                "dmg": 5,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "69a9b7fd126a"
+            },
+            {
+                "name": "composite bow",
+                "dmg": 7,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "763eac0bfb30"
+            }
+        ],
+        "unit_id": "b505c589"
+    },
+    "Saree": {
+        "name": "Saree",
+        "evolution": [
+            "Jawal"
+        ],
+        "cost": 35,
+        "faction": "Khalifate",
+        "race": "Humans",
+        "alignment": "liminal",
+        "lvl": 2,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "mace",
+                "dmg": 7,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "111e17ce4685"
+            },
+            {
+                "name": "composite bow",
+                "dmg": 9,
+                "hits": 4,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "b4c4739ce860"
+            }
+        ],
+        "unit_id": "f408f79d"
+    },
+    "Jawal": {
+        "name": "Jawal",
+        "cost": 50,
+        "faction": "Khalifate",
+        "race": "Humans",
+        "alignment": "liminal",
+        "lvl": 3,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "mace",
+                "dmg": 8,
+                "hits": 3,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "878378d34f72"
+            },
+            {
+                "name": "composite bow",
+                "dmg": 10,
+                "hits": 5,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "d366f22f86a5"
+            }
+        ],
+        "unit_id": "5c8949a6"
+    },
+    "Naffat": {
+        "name": "Naffat",
+        "evolution": [
+            "Qatif-al-nar"
+        ],
+        "cost": 19,
+        "faction": "Khalifate",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 1,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "naptha attack",
+                "dmg": 8,
+                "hits": 2,
+                "attack_type": "fire",
+                "ranged": 0,
+                "attack_id": "620b4e4e2f85"
+            },
+            {
+                "name": "fire arrow",
+                "dmg": 6,
+                "hits": 3,
+                "attack_type": "fire",
+                "ranged": 1,
+                "attack_id": "cc35fa0de978"
+            }
+        ],
+        "unit_id": "904f6675"
+    },
+    "Qatif-al-nar": {
+        "name": "Qatif-al-nar",
+        "evolution": [
+            "Tineen"
+        ],
+        "cost": 35,
+        "faction": "Khalifate",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 2,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "naptha attack",
+                "dmg": 10,
+                "hits": 2,
+                "attack_type": "fire",
+                "ranged": 0,
+                "attack_id": "c4443734772c"
+            },
+            {
+                "name": "fire arrow",
+                "dmg": 8,
+                "hits": 3,
+                "attack_type": "fire",
+                "ranged": 1,
+                "attack_id": "0b01f2161507"
+            }
+        ],
+        "unit_id": "3df115d6"
+    },
+    "Tineen": {
+        "name": "Tineen",
+        "cost": 65,
+        "faction": "Khalifate",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 3,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "naptha attack",
+                "dmg": 10,
+                "hits": 3,
+                "attack_type": "fire",
+                "ranged": 0,
+                "attack_id": "9d12cb9be482"
+            },
+            {
+                "name": "fire arrow",
+                "dmg": 9,
+                "hits": 4,
+                "attack_type": "fire",
+                "ranged": 1,
+                "attack_id": "6700691804b6"
+            }
+        ],
+        "unit_id": "855ae710"
+    },
+    "Falcon": {
+        "name": "Falcon",
+        "evolution": [
+            "Elder Falcon"
+        ],
+        "cost": 12,
+        "faction": "Khalifate",
+        "race": "Falcons",
+        "alignment": "neutral",
+        "lvl": 0,
+        "role": "scout",
+        "attacks": [
+            {
+                "name": "claws",
+                "dmg": 2,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "eadc81c025e2"
+            },
+            {
+                "name": "beak",
+                "dmg": 5,
+                "hits": 1,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "attack_id": "fbe4e66d40ea"
+            }
+        ],
+        "unit_id": "47d6f640"
+    },
+    "Elder Falcon": {
+        "name": "Elder Falcon",
+        "cost": 18,
+        "faction": "Khalifate",
+        "race": "Falcons",
+        "alignment": "neutral",
+        "lvl": 1,
+        "role": "scout",
+        "attacks": [
+            {
+                "name": "claws",
+                "dmg": 4,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "76520760eea8"
+            },
+            {
+                "name": "beak",
+                "dmg": 9,
+                "hits": 1,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "attack_id": "5b034a6e1c4f"
+            }
+        ],
+        "unit_id": "d85f2bbf"
+    },
+    "Sergeant": {
+        "name": "Sergeant",
+        "evolution": [
+            "Lieutenant"
+        ],
+        "cost": 19,
+        "faction": "loyalists",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 1,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "sword",
+                "dmg": 5,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "9243b9dc1c62"
+            },
+            {
+                "name": "crossbow",
+                "dmg": 4,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "d9a900343caa"
+            }
+        ],
+        "unit_id": "67339d79"
+    },
+    "Lieutenant": {
+        "name": "Lieutenant",
+        "evolution": [
+            "General"
+        ],
+        "cost": 35,
+        "faction": "Loyalists",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "sword",
+                "dmg": 8,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "39600a376d5d"
+            },
+            {
+                "name": "crossbow",
+                "dmg": 5,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "0d51e43b504b"
+            }
+        ],
+        "unit_id": "8cb36fd5"
+    },
+    "General": {
+        "name": "General",
+        "evolution": [
+            "Grand Marshal"
+        ],
+        "cost": 54,
+        "faction": "Loyalists",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 3,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "longsword",
+                "dmg": 9,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "cff44d873e25"
+            },
+            {
+                "name": "crossbow",
+                "dmg": 7,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "17a34f2cd148"
+            }
+        ],
+        "unit_id": "86ef4639"
+    },
+    "Grand Marshall": {
+        "name": "Grand Marshall",
+        "cost": 66,
+        "faction": "Loyalists",
+        "race": "Humans",
+        "alignment": "lawful",
+        "lvl": 4,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "longsword",
+                "dmg": 10,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "dd2137cf19c9"
+            },
+            {
+                "name": "crossbow",
+                "dmg": 8,
+                "hits": 3,
+                "attack_type": "pierce",
+                "ranged": 1,
+                "attack_id": "192e46b02484"
+            }
+        ],
+        "unit_id": "39282a9f"
+    },
+    "Young Ogre": {
+        "name": "Young Ogre",
+        "evolution": [
+            "Ogre"
+        ],
+        "cost": 15,
+        "faction": "Unknown",
+        "race": "Ogre",
+        "alignment": "neutral",
+        "lvl": 1,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "cleaver",
+                "dmg": 5,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "339b797d6756"
+            }
+        ],
+        "unit_id": "c3cacd2d"
+    },
+    "Ogre": {
+        "name": "Ogre",
+        "cost": 30,
+        "faction": "Unknown",
+        "race": "Ogre",
+        "alignment": "neutral",
+        "lvl": 2,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "cleaver",
+                "dmg": 10,
+                "hits": 3,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "7e44cbe411be"
+            }
+        ],
+        "unit_id": "9bf070b7"
+    },
+    "Giant Rat": {
+        "name": "Giant Rat",
+        "cost": 6,
+        "faction": "Unknown",
+        "race": "Monsters",
+        "alignment": "chaotic",
+        "lvl": 0,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "bite",
+                "dmg": 2,
+                "hits": 4,
+                "attack_type": "blade",
+                "ranged": 0,
+                "attack_id": "087f12e13ab8"
+            }
+        ],
+        "unit_id": "20a49d90"
+    },
+    "Mudcrawler": {
+        "name": "Mudcrawler",
+        "evolution": [
+            "Giant Mudcrawler"
+        ],
+        "cost": 5,
+        "faction": "Unknown",
+        "race": "Monsters",
+        "alignment": "neutral",
+        "lvl": 0,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "mud glob",
+                "dmg": 4,
+                "hits": 3,
+                "attack_type": "impact",
+                "ranged": 1,
+                "attack_id": "c5eb73631deb"
+            }
+        ],
+        "unit_id": "53bdfb98"
+    },
+    "Giant Mudcrawler": {
+        "name": "Giant Mudcrawler",
+        "cost": 16,
+        "faction": "Unknown",
+        "race": "Monsters",
+        "alignment": "neutral",
+        "lvl": 1,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "fist",
+                "dmg": 7,
+                "hits": 2,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "421b8e639b12"
+            },
+            {
+                "name": "mud glob",
+                "dmg": 5,
+                "hits": 3,
+                "attack_type": "impact",
+                "ranged": 1,
+                "attack_id": "32ef4217d348"
+            }
+        ],
+        "unit_id": "c31c5b9b"
+    },
+    "Fire Guardian": {
+        "name": "Fire Guardian",
+        "cost": 11,
+        "faction": "Unknown",
+        "race": "Monsters",
+        "alignment": "neutral",
+        "lvl": 1,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "fire claws",
+                "dmg": 4,
+                "hits": 3,
+                "attack_type": "fire",
+                "ranged": 0,
+                "attack_id": "42f9af235271"
+            },
+            {
+                "name": "fire breath",
+                "dmg": 8,
+                "hits": 2,
+                "attack_type": "fire",
+                "ranged": 1,
+                "attack_id": "c643f1d31f07"
+            }
+        ],
+        "unit_id": "27e3e93e"
+    },
+    "Fire Wraith": {
+        "name": "Fire Wraith",
+        "cost": 22,
+        "faction": "Unknown",
+        "race": "Monsters",
+        "alignment": "neutral",
+        "lvl": 2,
+        "role": "dps",
+        "attacks": [
+            {
+                "name": "fire claws",
+                "dmg": 6,
+                "hits": 3,
+                "attack_type": "fire",
+                "ranged": 0,
+                "attack_id": "28dd1f58ee4e"
+            },
+            {
+                "name": "fire breath",
+                "dmg": 12,
+                "hits": 2,
+                "attack_type": "fire",
+                "ranged": 1,
+                "attack_id": "b4b6d99c20e4"
+            }
+        ],
+        "unit_id": "fcb56d00"
+    },
+    "Giant Scorpling": {
+        "name": "Giant Scorpling",
+        "evolution": [
+            "Giant Scorpion"
+        ],
+        "cost": 12,
+        "faction": "Unknown",
+        "race": "Monsters",
+        "alignment": "neutral",
+        "lvl": 0,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "sting",
+                "dmg": 5,
+                "hits": 1,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "attack_id": "3462b64d4e05"
+            },
+            {
+                "name": "pincers",
+                "dmg": 2,
+                "hits": 4,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "d0ea290a8ab7"
+            }
+        ],
+        "unit_id": "e501062f"
+    },
+    "Giant Scorpion": {
+        "name": "Giant Scorpion",
+        "cost": 16,
+        "faction": "Unknown",
+        "race": "Monsters",
+        "alignment": "neutral",
+        "lvl": 1,
+        "role": "bruiser",
+        "attacks": [
+            {
+                "name": "sting",
+                "dmg": 9,
+                "hits": 1,
+                "attack_type": "pierce",
+                "ranged": 0,
+                "attack_id": "c8365f569b5b"
+            },
+            {
+                "name": "pincers",
+                "dmg": 4,
+                "hits": 4,
+                "attack_type": "impact",
+                "ranged": 0,
+                "attack_id": "a79d49ab7e5a"
+            }
+        ],
+        "unit_id": "8250a0d7"
+    }
+}
